@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>evtStartPage</name>
+    <events>
+        <variable comment="Plays intro video when val = 0. Skips video and displays replay intro afterwards" constant="0" name="playIntroVideo" sid="6208034950599045" static="0" type="number">0</variable>
+        <event-block sid="6590954820786297">
+            <conditions>
+                <condition id="0" name="On clicked" sid="9227741208543594" type="btnGameStart" />
+            </conditions>
+            <actions>
+                <action id="-43" name="Go to next/previous layout" sid="7337605235130141" type="System">
+                    <param id="0" name="Which">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

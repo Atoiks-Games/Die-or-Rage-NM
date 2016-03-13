@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>evtLevel30</name>
+    <events>
+        <include>evtMain</include>
+        <event-block sid="9570332554990885">
+            <conditions>
+                <condition id="-31" inverted="1" name="Object UID exists" sid="9729268625006543" type="System">
+                    <param id="0" name="UID">SWARM.UID</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="3386221294356176" type="sprLava">
+                    <param id="0" name="X">693</param>
+                    <param id="1" name="Y">217</param>
+                </action>
+            </actions>
+        </event-block>
+        <comment>inGameSound2 because its the sketchy one (not the anoying one)</comment>
+        <event-block sid="3557546306359568">
+            <conditions>
+                <condition id="5" name="Is tag playing" sid="4234343418546362" type="inGameMusic">
+                    <param id="0" name="Tag">&quot;inGameSound2&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="33" name="Stop all" sid="264624823029703" type="inGameMusic" />
+                <action id="0" name="Play" sid="5637485739809473" type="inGameMusic">
+                    <param id="0" name="Audio file">boss1Music</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">100</param>
+                    <param id="1" name="Tag (optional)">&quot;boss1Music&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

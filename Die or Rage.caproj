@@ -1,0 +1,1169 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>Die or Rage</name>
+    <description>Another game</description>
+    <version>1.0.0.0</version>
+    <author>stansteadPeople</author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.stansteadPeople.dieOrRage</app-id>
+    <unique-id>2m2oqhlgof90t</unique-id>
+    <saved-with-version>22100</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="video" version="1">Video</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
+        <behavior author="Scirra" id="Car" version="1">Car</behavior>
+        <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
+        <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
+        <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="Rotate" version="1">Rotate</behavior>
+        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+        <behavior author="Scirra" id="Turret" version="1">Turret</behavior>
+        <behavior author="Scirra" id="custom" version="1">Custom Movement</behavior>
+        <behavior author="Scirra" id="destroy" version="1">Destroy outside layout</behavior>
+        <behavior author="Scirra" id="jumpthru" version="1">Jump-thru</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>854</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <first-layout>StartPage</first-layout>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Orientations">Landscape</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D web</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="sprRyan" sid="7593612311731811">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="9395584529892024">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="18" loop="1" name="Idle" pingpong="0" repeatcount="1" repeatto="0" sid="2178932187771344" speed="5">
+                    <frame duration="1" hotspotX="0.387597" hotspotY="0.126712" original-source="C:\Users\gui\Downloads\Jeff Idle 2.png">
+                        <collision-poly>
+                            <point x="0.186047" y="0.0821918" />
+                            <point x="0.496124" y="0.010274" />
+                            <point x="0.666667" y="0.14726" />
+                            <point x="0.984496" y="0.993151" />
+                            <point x="0.496124" y="0.849315" />
+                            <point x="0.0155039" y="0.993151" />
+                            <point x="0.0930233" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.384" hotspotY="0.127586" original-source="C:\Users\gui\Downloads\base_jeff.png">
+                        <collision-poly>
+                            <point x="0.184" y="0.0793103" />
+                            <point x="0.496" y="0.0206897" />
+                            <point x="0.616" y="0.165517" />
+                            <point x="0.792" y="0.5" />
+                            <point x="0.984" y="0.993103" />
+                            <point x="0.496" y="0.831034" />
+                            <point x="0.048" y="0.97931" />
+                            <point x="0.104" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.387597" hotspotY="0.126712" original-source="C:\Users\gui\Downloads\Jeff Idle 1.png">
+                        <collision-poly>
+                            <point x="0.186047" y="0.0821918" />
+                            <point x="0.496124" y="0.010274" />
+                            <point x="0.666667" y="0.14726" />
+                            <point x="0.984496" y="0.993151" />
+                            <point x="0.496124" y="0.849315" />
+                            <point x="0.0155039" y="0.993151" />
+                            <point x="0.0930233" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.387597" hotspotY="0.126712" original-source="C:\Users\gui\Downloads\Jeff Idle 3.png">
+                        <collision-poly>
+                            <point x="0.186047" y="0.0821918" />
+                            <point x="0.496124" y="0.010274" />
+                            <point x="0.666667" y="0.14726" />
+                            <point x="0.984496" y="0.993151" />
+                            <point x="0.496124" y="0.849315" />
+                            <point x="0.0155039" y="0.993151" />
+                            <point x="0.0930233" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.387597" hotspotY="0.126712" original-source="C:\Users\gui\Downloads\Jeff Idle 4.png">
+                        <collision-poly>
+                            <point x="0.186047" y="0.0821918" />
+                            <point x="0.496124" y="0.010274" />
+                            <point x="0.666667" y="0.14726" />
+                            <point x="0.984496" y="0.993151" />
+                            <point x="0.496124" y="0.849315" />
+                            <point x="0.0155039" y="0.993151" />
+                            <point x="0.0930233" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.387597" hotspotY="0.125" original-source="C:\Users\gui\Downloads\Jeff Idle 5.png">
+                        <collision-poly>
+                            <point x="0.186047" y="0.0833333" />
+                            <point x="0.496124" y="0.0104167" />
+                            <point x="0.666667" y="0.149306" />
+                            <point x="0.992248" y="0.996528" />
+                            <point x="0.496124" y="0.861111" />
+                            <point x="0.00775194" y="0.996528" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.387597" hotspotY="0.126712" original-source="C:\Users\gui\Downloads\Jeff Idle 6.png">
+                        <collision-poly>
+                            <point x="0.186047" y="0.0821918" />
+                            <point x="0.496124" y="0.010274" />
+                            <point x="0.666667" y="0.14726" />
+                            <point x="0.984496" y="0.993151" />
+                            <point x="0.496124" y="0.849315" />
+                            <point x="0.0155039" y="0.993151" />
+                            <point x="0.0930233" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.387597" hotspotY="0.126712" original-source="C:\Users\gui\Downloads\Jeff Idle 7.png">
+                        <collision-poly>
+                            <point x="0.186047" y="0.0821918" />
+                            <point x="0.496124" y="0.010274" />
+                            <point x="0.666667" y="0.14726" />
+                            <point x="0.984496" y="0.993151" />
+                            <point x="0.496124" y="0.849315" />
+                            <point x="0.0155039" y="0.993151" />
+                            <point x="0.0930233" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.387597" hotspotY="0.126712" original-source="C:\Users\gui\Downloads\Jeff Idle 8.png">
+                        <collision-poly>
+                            <point x="0.186047" y="0.0821918" />
+                            <point x="0.496124" y="0.010274" />
+                            <point x="0.666667" y="0.14726" />
+                            <point x="0.984496" y="0.993151" />
+                            <point x="0.496124" y="0.849315" />
+                            <point x="0.0155039" y="0.993151" />
+                            <point x="0.0930233" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.387597" hotspotY="0.126712" original-source="C:\Users\gui\Downloads\Jeff Idle 0.png">
+                        <collision-poly>
+                            <point x="0.186047" y="0.0821918" />
+                            <point x="0.496124" y="0.010274" />
+                            <point x="0.666667" y="0.14726" />
+                            <point x="0.984496" y="0.993151" />
+                            <point x="0.496124" y="0.849315" />
+                            <point x="0.0155039" y="0.993151" />
+                            <point x="0.0930233" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.387597" hotspotY="0.126712" original-source="C:\Users\gui\Downloads\Jeff Idle 1.png">
+                        <collision-poly>
+                            <point x="0.186047" y="0.0821918" />
+                            <point x="0.496124" y="0.010274" />
+                            <point x="0.666667" y="0.14726" />
+                            <point x="0.984496" y="0.993151" />
+                            <point x="0.496124" y="0.849315" />
+                            <point x="0.0155039" y="0.993151" />
+                            <point x="0.0930233" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.387597" hotspotY="0.126712" original-source="C:\Users\gui\Downloads\Jeff Idle 2.png">
+                        <collision-poly>
+                            <point x="0.186047" y="0.0821918" />
+                            <point x="0.496124" y="0.010274" />
+                            <point x="0.666667" y="0.14726" />
+                            <point x="0.984496" y="0.993151" />
+                            <point x="0.496124" y="0.849315" />
+                            <point x="0.0155039" y="0.993151" />
+                            <point x="0.0930233" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.387597" hotspotY="0.126712" original-source="C:\Users\gui\Downloads\Jeff Idle 3.png">
+                        <collision-poly>
+                            <point x="0.186047" y="0.0821918" />
+                            <point x="0.496124" y="0.010274" />
+                            <point x="0.666667" y="0.14726" />
+                            <point x="0.984496" y="0.993151" />
+                            <point x="0.496124" y="0.849315" />
+                            <point x="0.0155039" y="0.993151" />
+                            <point x="0.0930233" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.387597" hotspotY="0.126712" original-source="C:\Users\gui\Downloads\Jeff Idle 4.png">
+                        <collision-poly>
+                            <point x="0.186047" y="0.0821918" />
+                            <point x="0.496124" y="0.010274" />
+                            <point x="0.666667" y="0.14726" />
+                            <point x="0.984496" y="0.993151" />
+                            <point x="0.496124" y="0.849315" />
+                            <point x="0.0155039" y="0.993151" />
+                            <point x="0.0930233" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.387597" hotspotY="0.126712" original-source="C:\Users\gui\Downloads\Jeff Idle 5.png">
+                        <collision-poly>
+                            <point x="0.186047" y="0.0821918" />
+                            <point x="0.496124" y="0.010274" />
+                            <point x="0.666667" y="0.14726" />
+                            <point x="0.984496" y="0.993151" />
+                            <point x="0.496124" y="0.849315" />
+                            <point x="0.0155039" y="0.993151" />
+                            <point x="0.0930233" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.387597" hotspotY="0.126712" original-source="C:\Users\gui\Downloads\Jeff Idle 6.png">
+                        <collision-poly>
+                            <point x="0.186047" y="0.0821918" />
+                            <point x="0.496124" y="0.010274" />
+                            <point x="0.666667" y="0.14726" />
+                            <point x="0.984496" y="0.993151" />
+                            <point x="0.496124" y="0.849315" />
+                            <point x="0.0155039" y="0.993151" />
+                            <point x="0.0930233" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.387597" hotspotY="0.126712" original-source="C:\Users\gui\Downloads\Jeff Idle 7.png">
+                        <collision-poly>
+                            <point x="0.186047" y="0.0821918" />
+                            <point x="0.496124" y="0.010274" />
+                            <point x="0.666667" y="0.14726" />
+                            <point x="0.984496" y="0.993151" />
+                            <point x="0.496124" y="0.849315" />
+                            <point x="0.0155039" y="0.993151" />
+                            <point x="0.0930233" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.387597" hotspotY="0.126712" original-source="C:\Users\gui\Downloads\base_jeff.png">
+                        <collision-poly>
+                            <point x="0.186047" y="0.0821918" />
+                            <point x="0.496124" y="0.010274" />
+                            <point x="0.666667" y="0.14726" />
+                            <point x="0.984496" y="0.993151" />
+                            <point x="0.496124" y="0.849315" />
+                            <point x="0.0155039" y="0.993151" />
+                            <point x="0.0930233" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="4" loop="0" name="RunningR" pingpong="0" repeatcount="1" repeatto="0" sid="7987982156669941" speed="10">
+                    <frame duration="1" hotspotX="0.387597" hotspotY="0.126712" original-source="C:\Users\gui\Downloads\Jeff Idle 7.png">
+                        <collision-poly>
+                            <point x="0.186047" y="0.0821918" />
+                            <point x="0.496124" y="0.010274" />
+                            <point x="0.666667" y="0.14726" />
+                            <point x="0.984496" y="0.993151" />
+                            <point x="0.496124" y="0.849315" />
+                            <point x="0.0155039" y="0.993151" />
+                            <point x="0.0930233" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.388489" hotspotY="0.126712" original-source="C:\Users\gui\Downloads\run R Jeff 1.png">
+                        <collision-poly>
+                            <point x="0.165468" y="0.0787671" />
+                            <point x="0.496403" y="0.0171233" />
+                            <point x="0.510791" y="0.232877" />
+                            <point x="0.741007" y="0.5" />
+                            <point x="0.892086" y="0.94863" />
+                            <point x="0.496403" y="0.839041" />
+                            <point x="0.0143885" y="0.993151" />
+                            <point x="0.0791367" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.386139" hotspotY="0.126712" original-source="C:\Users\gui\Downloads\run R Jeff 2.png">
+                        <collision-poly>
+                            <point x="0.168317" y="0.0582192" />
+                            <point x="0.49505" y="0.00684932" />
+                            <point x="0.752475" y="0.0856164" />
+                            <point x="0.930693" y="0.5" />
+                            <point x="0.950495" y="0.982877" />
+                            <point x="0.49505" y="0.996575" />
+                            <point x="0.19802" y="0.931507" />
+                            <point x="0.019802" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.388889" hotspotY="0.12585" original-source="C:\Users\gui\Downloads\run R Jeff 3.png">
+                        <collision-poly>
+                            <point x="0.18254" y="0.0782313" />
+                            <point x="0.5" y="0.0102041" />
+                            <point x="0.674603" y="0.139456" />
+                            <point x="0.81746" y="0.5" />
+                            <point x="0.97619" y="0.989796" />
+                            <point x="0.031746" y="0.986395" />
+                            <point x="0.0873016" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="2" loop="0" name="Jumping" pingpong="0" repeatcount="1" repeatto="0" sid="4971777287107919" speed="10">
+                    <frame duration="1" hotspotX="0.389381" hotspotY="0.12628" original-source="C:\Users\gui\Downloads\Jump Jeff 1.png">
+                        <collision-poly>
+                            <point x="0.141593" y="0.0546075" />
+                            <point x="0.495575" y="0.0136519" />
+                            <point x="0.672566" y="0.12628" />
+                            <point x="0.823009" y="0.498294" />
+                            <point x="0.929204" y="0.972696" />
+                            <point x="0.495575" y="0.836177" />
+                            <point x="0.0884956" y="0.96587" />
+                            <point x="0.00884956" y="0.498294" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.382979" hotspotY="0.127586" original-source="C:\Users\gui\Downloads\Jump Jeff 2.png">
+                        <collision-poly>
+                            <point x="0.170213" y="0.0551724" />
+                            <point x="0.5" y="0.00344828" />
+                            <point x="0.776596" y="0.0724138" />
+                            <point x="0.989362" y="0.5" />
+                            <point x="0.904255" y="0.968966" />
+                            <point x="0.5" y="0.865517" />
+                            <point x="0.117021" y="0.962069" />
+                            <point x="0.0106383" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Crouch" pingpong="0" repeatcount="1" repeatto="0" sid="6079345777502187" speed="5">
+                    <frame duration="1" hotspotX="0.387597" hotspotY="0.126712" original-source="C:\Users\ajbim\Downloads\Base Jeff.png">
+                        <collision-poly>
+                            <point x="0.496124" y="0.476027" />
+                            <point x="0.589147" y="0.5" />
+                            <point x="0.984496" y="0.993151" />
+                            <point x="0.496124" y="0.849315" />
+                            <point x="0.0232558" y="0.989726" />
+                            <point x="0.24031" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="4" loop="0" name="RunningL" pingpong="0" repeatcount="1" repeatto="0" sid="3828706177330953" speed="19">
+                    <frame duration="1" hotspotX="0.387597" hotspotY="0.126712" original-source="C:\Users\gui\Downloads\Jeff Idle 7.png">
+                        <collision-poly>
+                            <point x="0.186047" y="0.0821918" />
+                            <point x="0.496124" y="0.010274" />
+                            <point x="0.666667" y="0.14726" />
+                            <point x="0.984496" y="0.993151" />
+                            <point x="0.496124" y="0.849315" />
+                            <point x="0.0155039" y="0.993151" />
+                            <point x="0.0930233" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.385827" hotspotY="0.127148" original-source="C:\Users\gui\Downloads\run L Jeff 1.png">
+                        <collision-poly>
+                            <point x="0.535433" y="0.233677" />
+                            <point x="0.496063" y="0.0343643" />
+                            <point x="0.88189" y="0.0515464" />
+                            <point x="0.992126" y="0.498282" />
+                            <point x="0.992126" y="0.996564" />
+                            <point x="0.496063" y="0.831615" />
+                            <point x="0.110236" y="0.95189" />
+                            <point x="0.283465" y="0.498282" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.383838" hotspotY="0.127586" original-source="C:\Users\gui\Downloads\run L Jeff 2.png">
+                        <collision-poly>
+                            <point x="0.252525" y="0.0862069" />
+                            <point x="0.494949" y="0.00689655" />
+                            <point x="0.838384" y="0.0551724" />
+                            <point x="0.989899" y="0.5" />
+                            <point x="0.989899" y="0.996552" />
+                            <point x="0.050505" y="0.982759" />
+                            <point x="0.0707071" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.388889" hotspotY="0.12585" original-source="C:\Users\gui\Downloads\run L Jeff 3.png">
+                        <collision-poly>
+                            <point x="0.380952" y="0.163265" />
+                            <point x="0.5" y="0.0136054" />
+                            <point x="0.849206" y="0.0646259" />
+                            <point x="0.952381" y="0.5" />
+                            <point x="0.97619" y="0.989796" />
+                            <point x="0.031746" y="0.986395" />
+                            <point x="0.222222" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sprSimplePlatform" sid="9707416619461477">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="6438726468146691">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9900588685032688" speed="5">
+                    <frame duration="1" hotspotX="7.75676" hotspotY="5.17123" original-source="C:\Users\gui\Downloads\Dirt.png">
+                        <collision-poly>
+                            <point x="0.0198676" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sprLava" sid="4336904711764813">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6116435342803781" speed="5">
+                    <frame duration="1" hotspotX="2.28571" hotspotY="0.12987" original-source="C:\Users\gui\Downloads\Lava.png">
+                        <collision-poly>
+                            <point x="0.0544218" y="0.0519481" />
+                            <point x="0.496599" y="0.0324675" />
+                            <point x="0.92517" y="0.0714286" />
+                            <point x="0.952381" y="0.5" />
+                            <point x="0.945578" y="0.948052" />
+                            <point x="0.496599" y="0.954545" />
+                            <point x="0.0816327" y="0.922078" />
+                            <point x="0.047619" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Keyboard" sid="4768441257489321">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="sprRyansHouse" sid="4438125558115114">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="6910764937561096">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8087997873608529" speed="5">
+                    <frame duration="1" hotspotX="1.21271" hotspotY="0.979508" original-source="C:\Users\gui\Downloads\Dirt with house.png">
+                        <collision-poly>
+                            <point x="0" y="0.282787" />
+                            <point x="0.858215" y="0.278322" />
+                            <point x="1" y="0.285837" />
+                            <point x="0.989712" y="0.997159" />
+                            <point x="0" y="0.981481" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="txtInstructions1" sid="1078987437207329">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Orangeplat" sid="1573846639824846">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="554786183386613">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2207055883622881" speed="5">
+                    <frame duration="1" hotspotX="0.478261" hotspotY="0.285714" original-source="C:\Users\gui\Downloads\Orange Platform Active.png">
+                        <collision-poly>
+                            <point x="0.00349379" y="0.125" />
+                            <point x="0.997283" y="0.160714" />
+                            <point x="0.996894" y="0.839286" />
+                            <point x="0.00349379" y="0.875" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="txtInstructions2" sid="1354441244099174">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="txtWelcomeText" sid="2610324872628948">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="btnGameStart" sid="7508161826386051">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Text" sid="3504069485159818">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sprSwitchBase" sid="3499903209424186">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="1444689078889752">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6907907500548578" speed="5">
+                    <frame duration="1" hotspotX="1.63636" hotspotY="-0.05" original-source="C:\Users\gui\Downloads\Orange Switch Base.png">
+                        <collision-poly>
+                            <point x="0" y="0.275" />
+                            <point x="1" y="0.325" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text2" sid="8979405186066276">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="btnReplayIntro" sid="6793833176544345">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Video" sid="6777591273184358">
+            <plugin id="video" />
+        </object-type>
+        <object-type name="inGameMusic" sid="5503394552594519">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="sprAnvil" sid="2248141659386566">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="AnvilPlaf" sid="7570821228741447">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3175330609698651" speed="5">
+                    <frame duration="1" hotspotX="1.56545" hotspotY="2.48344" original-source="C:\Users\gui\Downloads\Anvil.png">
+                        <collision-poly>
+                            <point x="0.214659" y="0.986755" />
+                            <point x="0.827225" y="0.986754" />
+                            <point x="0.518324" y="0.245034" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sprSwitch" sid="9483322456254776">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Off" pingpong="0" repeatcount="1" repeatto="0" sid="6284658881788743" speed="5">
+                    <frame duration="1" hotspotX="4.67391" hotspotY="0.890476" original-source="C:\Users\gui\Downloads\Orange Switch Head Off.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="On" pingpong="0" repeatcount="1" repeatto="0" sid="7502502600928347" speed="5">
+                    <frame duration="1" hotspotX="4.95455" hotspotY="0.890476" original-source="C:\Users\gui\Downloads\Orange Switch Head On.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text3" sid="5328986719339563">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="btnRestart" sid="9132191535282894">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Sprite" sid="7021103342740831">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Jumpthru" sid="7898354983260855">
+                    <behavior id="jumpthru" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8039156659250586" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.503185" original-source="C:\Users\gui\Downloads\One Way Block.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sprVoidswalker" sid="9396073746059205">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="5" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7128082345344892" speed="5">
+                    <frame duration="1" hotspotX="0.50505" hotspotY="0.5" original-source="C:\Users\plank\Downloads\Voidswalker Base.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501845" original-source="C:\Users\plank\Downloads\Voidswalker Charge 1.png" />
+                    <frame duration="1" hotspotX="0.504274" hotspotY="0.5" original-source="C:\Users\plank\Downloads\Voidswalker Charge 2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\plank\Downloads\Voidswalker Charge 3.png" />
+                    <frame duration="1" hotspotX="0.504425" hotspotY="0.50193" original-source="C:\Users\plank\Downloads\Voidswalker Charge 4.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sprVoidswalkerBlast" sid="3558875145533148">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="9332348372890487">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9023900895627479" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502732" original-source="C:\Users\plank\Downloads\Voidswalker Blast.png">
+                        <collision-poly>
+                            <point x="0.125" y="0.114754" />
+                            <point x="0.589285" y="0.010929" />
+                            <point x="0.785714" y="0.196721" />
+                            <point x="1" y="0.344262" />
+                            <point x="0.922619" y="0.672131" />
+                            <point x="0.571428" y="0.928962" />
+                            <point x="0.119048" y="0.972678" />
+                            <point x="0.047619" y="0.497268" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sprBackground" sid="2062657847092725">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1311133987892884" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gui\Downloads\Overworld Background.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="MovingPlatform" sid="9914406066011315">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="CustomMovement" sid="4359375813244705">
+                    <behavior id="custom" />
+                </behavior-type>
+                <behavior-type name="Jumpthru" sid="8848367544115476">
+                    <behavior id="jumpthru" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1298538909616206" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.515625" original-source="C:\Users\ajbim\Downloads\Moving Platform.png">
+                        <collision-poly>
+                            <point x="0.0078125" y="0.03125" />
+                            <point x="0.994531" y="0.03125" />
+                            <point x="0.994531" y="0.953125" />
+                            <point x="0.00859375" y="0.953125" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SlimeBlock" sid="9808075719011653">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="3218474715609454">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Physics" sid="9630496225153056">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8471732587034827" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.503356" original-source="C:\Users\ajbim\Downloads\SlimeBlock.png">
+                        <collision-poly>
+                            <point x="0.00684932" y="0.00671141" />
+                            <point x="0.993151" y="0.00671141" />
+                            <point x="0.993151" y="0.993289" />
+                            <point x="0.00684932" y="0.993289" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TeleportBlock" sid="6535881045905139">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="7253294786848281">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9107708870399394" speed="5">
+                    <frame duration="1" hotspotX="0.503448" hotspotY="0.5" original-source="C:\Users\ajbim\Downloads\Teleporting Ground.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sprGreenCar" sid="766587369507793">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="6055984856105151">
+                    <behavior id="Pin" />
+                </behavior-type>
+                <behavior-type name="Rotate" sid="8621234444448396">
+                    <behavior id="Rotate" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2688685525404078" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.504587" original-source="C:\Users\plank\Pictures\Saved Pictures\simply a car (2).png">
+                        <collision-poly>
+                            <point x="0.144578" y="0.458716" />
+                            <point x="0.168675" y="0.0458716" />
+                            <point x="0.951807" y="0.0642202" />
+                            <point x="0.975904" y="0.743119" />
+                            <point x="0.762048" y="0.963302" />
+                            <point x="0.210843" y="0.981651" />
+                            <point x="0.0361446" y="0.834862" />
+                            <point x="0.0421687" y="0.495413" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="GunFloating" sid="9112318802324984">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="1954319183090862">
+                    <behavior id="Pin" />
+                </behavior-type>
+                <behavior-type name="Rotate" sid="4421256079957367">
+                    <behavior id="Rotate" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="970573482445255" speed="5">
+                    <frame duration="1" hotspotX="0.0470914" hotspotY="0.362416" original-source="C:\Users\ajbim\Downloads\Gun.png">
+                        <collision-poly>
+                            <point x="0.00554017" y="0.0134228" />
+                            <point x="0.609418" y="0.0402685" />
+                            <point x="0.601108" y="0.345638" />
+                            <point x="0.124654" y="0.395973" />
+                            <point x="0.130194" y="0.953021" />
+                            <point x="0.0110803" y="0.973154" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Bullet" sid="4470185025821258">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="6126830167708249">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Sine" sid="9668003703637174">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7163834503061449" speed="5">
+                    <frame duration="1" hotspotX="0.265789" hotspotY="0.947368" original-source="C:\Users\ajbim\Downloads\Bullet.png">
+                        <collision-poly>
+                            <point x="0.00526316" y="0.0150376" />
+                            <point x="0.5" y="0.172932" />
+                            <point x="1" y="0.496241" />
+                            <point x="0.5" y="0.842105" />
+                            <point x="0.00526316" y="0.984962" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sprBoss1" sid="9046934058338507">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Rotate" sid="9590267016569107">
+                    <behavior id="Rotate" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="2075818236792533">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4867823816804857" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\plank\Downloads\bill.JPG">
+                        <collision-poly>
+                            <point x="0.746711" y="0.73718" />
+                            <point x="0.217105" y="0.74359" />
+                            <point x="0.503289" y="0.13782" />
+                            <point x="0.789474" y="0.650641" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="background" sid="9480262485619111">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9923634517773416" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500599" original-source="C:\Users\plank\Downloads\background.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sprWhiteDot" sid="4996122050425433">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5948540790106883" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.488" y="0.402" />
+                            <point x="0.5315" y="0.4405" />
+                            <point x="0.510094" y="0.493312" />
+                            <point x="0.456188" y="0.488625" />
+                            <point x="0.43975" y="0.438" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="HeathBar" sid="4511428711388394">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2541952126370561" speed="5">
+                    <frame duration="1" hotspotX="0.503876" hotspotY="-0.305556" original-source="C:\Users\ajbim\Downloads\Storage\images.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Portal" sid="3037839886903572">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Rotate" sid="8578012975131664">
+                    <behavior id="Rotate" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2817078165359329" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text4" sid="8275061726959531">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text5" sid="3782481250478459">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text6" sid="2613059645361874">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text7" sid="2147733555181386">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text8" sid="2478460135446398">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text9" sid="1746573605548226">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text10" sid="7197115494373391">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text11" sid="5698340078039382">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="HealBot" sid="5746546406169579">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="8Direction" sid="6836075600087894">
+                    <behavior id="EightDir" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="6928367720803455">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4700811090929484" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.503401" original-source="C:\Users\ajbim\Downloads\Healbot.png">
+                        <collision-poly>
+                            <point x="0.0107527" y="0.210884" />
+                            <point x="0.198925" y="0.207483" />
+                            <point x="0.344086" y="0.00680272" />
+                            <point x="0.66129" y="0.00680272" />
+                            <point x="0.844086" y="0.217687" />
+                            <point x="0.983871" y="0.214286" />
+                            <point x="0.5" y="0.993197" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text12" sid="1414191288176734">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="DestroyerWall" sid="9663109482463299">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9523263184640513" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text13" sid="4101816384798656">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text14" sid="6474847939125345">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text15" sid="6026732599157116">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Bloop" sid="6801551951144721">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Car" sid="3170619435917267">
+                    <behavior id="Car" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9356946933258358" speed="5">
+                    <frame duration="1" hotspotX="0.31875" hotspotY="0.969072" original-source="C:\Users\ajbim\Downloads\Bloop.png">
+                        <collision-poly>
+                            <point x="0.00625" y="0.309278" />
+                            <point x="0.1875" y="0.298969" />
+                            <point x="0.323438" y="0.0412371" />
+                            <point x="0.675782" y="0.0309278" />
+                            <point x="0.809375" y="0.27835" />
+                            <point x="1" y="0.309278" />
+                            <point x="0.5" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text16" sid="3172146415902948">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text17" sid="3326042850817923">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Blap" sid="4215394916928585">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="8Direction" sid="907236327105839">
+                    <behavior id="EightDir" />
+                </behavior-type>
+                <behavior-type name="Turret" sid="1511575796328721">
+                    <behavior id="Turret" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1189235382244" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.503401" original-source="C:\Users\ajbim\Downloads\Healbot.png">
+                        <collision-poly>
+                            <point x="0" y="0.197279" />
+                            <point x="0.225807" y="0.197279" />
+                            <point x="0.303764" y="0.0102041" />
+                            <point x="0.686828" y="0.00850341" />
+                            <point x="0.817204" y="0.197279" />
+                            <point x="1" y="0.207483" />
+                            <point x="0.5" y="0.993197" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="HealthDart" sid="5387077180318375">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DestroyOutsideLayout" sid="2653510523667963">
+                    <behavior id="destroy" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="3269979821061819">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8534737761924203" speed="5">
+                    <frame duration="1" hotspotX="0.488889" hotspotY="0.507042" original-source="C:\Users\ajbim\Downloads\Healbot Missle.png">
+                        <collision-poly>
+                            <point x="0.488889" y="0.0140845" />
+                            <point x="0.688889" y="0.28169" />
+                            <point x="0.955556" y="0.971831" />
+                            <point x="0.488889" y="0.985915" />
+                            <point x="0.0444444" y="0.971831" />
+                            <point x="0.244444" y="0.28169" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text18" sid="9406503054161828">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text19" sid="6787771943563288">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="GreenPlatform" sid="1970106968416757">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="7215560795694625">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9700371038804335" speed="5">
+                    <frame duration="1" hotspotX="0.478261" hotspotY="0.285714" original-source="C:\Users\gui\Downloads\Orange Platform Active.png">
+                        <collision-poly>
+                            <point x="0.00310559" y="0.125" />
+                            <point x="0.997089" y="0.133929" />
+                            <point x="0.997088" y="0.866071" />
+                            <point x="0.00329969" y="0.866071" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text20" sid="3090114488055425">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text21" sid="9001357377544045">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text22" sid="5696405890707031">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text23" sid="360619233636925">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text24" sid="4189522907193929">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text25" sid="4294768724298926">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text26" sid="7235938365518439">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text27" sid="1544062076454818">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Bomb" sid="7947602399177265">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="9891695045415253">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2621242767409124" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sheild" sid="4005188597504472">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9310568073468279" speed="5">
+                    <frame duration="1" hotspotX="0.479638" hotspotY="1.01961">
+                        <collision-poly>
+                            <point x="0.00339367" y="0.00980392" />
+                            <point x="0.997738" y="0.0196078" />
+                            <point x="0.996606" y="0.985294" />
+                            <point x="0.00339367" y="0.980392" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SWARM" sid="3615032765928977">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7691659076077788" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.503401" original-source="C:\Users\abimm\Documents\GitHub\Die-or-Rage_proto\Animations\Blap\Default\000.png">
+                        <collision-poly>
+                            <point x="0.155914" y="0.197279" />
+                            <point x="0.5" y="0" />
+                            <point x="0.844086" y="0.197279" />
+                            <point x="0.833333" y="0.496599" />
+                            <point x="0.5" y="0.993197" />
+                            <point x="0.177419" y="0.496599" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text28" sid="4565462262670749">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text29" sid="6442789681151352">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text30" sid="8242533085417818">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text31" sid="4576602172845559">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Skip" sid="2549293193634901">
+            <plugin id="Button" />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>StartPage.xml</layout>
+        <layout>Level 1.xml</layout>
+        <layout>Level 2.xml</layout>
+        <layout>Level 3.xml</layout>
+        <layout>Level 4.xml</layout>
+        <layout>Level 5.xml</layout>
+        <layout>Level 6.xml</layout>
+        <layout>Level 7.xml</layout>
+        <layout>Level 8.xml</layout>
+        <layout>Level 9.xml</layout>
+        <layout>Level 10.xml</layout>
+        <layout>Level 11.xml</layout>
+        <layout>Level 12.xml</layout>
+        <layout>Level 13.xml</layout>
+        <layout>Level 14.xml</layout>
+        <layout>Level 15.xml</layout>
+        <layout>Level 16.xml</layout>
+        <layout>Level 17.xml</layout>
+        <layout>Level 18.xml</layout>
+        <layout>Level 19.xml</layout>
+        <layout>Level 20.xml</layout>
+        <layout>Level 21.xml</layout>
+        <layout>Level 22.xml</layout>
+        <layout>Level 23.xml</layout>
+        <layout>Level 24.xml</layout>
+        <layout>Level 25.xml</layout>
+        <layout>Level 26.xml</layout>
+        <layout>Level 27.xml</layout>
+        <layout>Level 28.xml</layout>
+        <layout>Level 29.xml</layout>
+        <layout>Level 30.xml</layout>
+        <layout>Ending.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>evtMain.xml</event-sheet>
+        <event-sheet>evtStartPage.xml</event-sheet>
+        <event-sheet>evtIntroHell.xml</event-sheet>
+        <event-sheet>evtLevel13.xml</event-sheet>
+        <event-sheet>evtLevel15.xml</event-sheet>
+        <event-sheet>evtLevel16.xml</event-sheet>
+        <event-sheet>evtLevel28.xml</event-sheet>
+        <event-sheet>evtLevel30.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Keyboard" uid="35" />
+        <global-instance type="inGameMusic" uid="52">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>Yes</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder>
+        <file name="inGameSound.ogg" />
+        <file name="boss1Music.ogg" />
+        <file name="InGameSound2.ogg" />
+    </sounds-folder>
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>

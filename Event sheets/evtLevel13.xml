@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>evtLevel13</name>
+    <events>
+        <include>evtMain</include>
+        <event-block sid="3833664179166807">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="1149076174574411" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="3506903463447692">
+                    <conditions>
+                        <condition id="-3" name="Is on-screen" sid="8523409480696452" type="sprGreenCar" />
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="4305012618451495" type="sprGreenCar">
+                            <param id="0" name="X">sprGreenCar.X - 10</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3897300301331783">
+                    <conditions>
+                        <condition id="-4" name="Is outside layout" sid="8949989195842666" type="sprGreenCar" />
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="7482934635408747" type="sprGreenCar">
+                            <param id="0" name="X">934</param>
+                            <param id="1" name="Y">419</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8277727409182335">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="2762887735015648" type="sprGreenCar">
+                            <param id="0" name="Object">sprRyan</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="7854134375273437" type="System">
+                            <param id="0" name="Layout">StartPage</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="2022500994809611" type="System">
+                            <param id="0" name="Variable">sprRyanAnimation</param>
+                            <param id="1" name="Value">&quot;Idle&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>

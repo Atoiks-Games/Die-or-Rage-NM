@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>evtLevel28</name>
+    <events>
+        <include>evtMain</include>
+        <event-block sid="2562026899035736">
+            <conditions>
+                <condition id="-31" inverted="1" name="Object UID exists" sid="1582282513504896" type="System">
+                    <param id="0" name="UID">Blap.UID</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="8700497970705818" type="sprLava">
+                    <param id="0" name="X">1023</param>
+                    <param id="1" name="Y">324</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

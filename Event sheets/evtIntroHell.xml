@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>evtIntroHell</name>
+    <events>
+        <comment>Goto hell level then... Obviously</comment>
+        <event-block sid="7157724172314641">
+            <conditions>
+                <condition id="4" name="Is any playing" sid="1887952656182139" type="inGameMusic" />
+            </conditions>
+            <actions>
+                <action id="33" name="Stop all" sid="5985886328797097" type="inGameMusic" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

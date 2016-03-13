@@ -1,0 +1,932 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>evtMain</name>
+    <events>
+        <variable comment="Signal" constant="1" name="SIG_TELEPORT_RYAN" sid="3750120932456258" static="0" type="text">teleportRyan</variable>
+        <variable comment="Name of current animation" constant="0" name="sprRyanAnimation" sid="5487619636812518" static="0" type="text">Idle</variable>
+        <event-block any="1" sid="8311668621491138">
+            <conditions>
+                <condition id="2" name="Key is down" sid="8516428415850108" type="Keyboard">
+                    <param id="0" name="Key">39 (Right arrow)</param>
+                </condition>
+                <condition id="2" name="Key is down" sid="6082579123148742" type="Keyboard">
+                    <param id="0" name="Key">68 (D)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="5242439402003003" type="sprRyan">
+                    <param id="0" name="Control">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="5844891031991749" type="System">
+                    <param id="0" name="Variable">sprRyanAnimation</param>
+                    <param id="1" name="Value">&quot;RunningR&quot;</param>
+                </action>
+                <action behavior="8Direction" id="7" name="Simulate control" sid="4045205089153568" type="Blap">
+                    <param id="0" name="Control">1</param>
+                </action>
+                <action behavior="8Direction" id="7" name="Simulate control" sid="7693609986682464" type="HealBot">
+                    <param id="0" name="Control">1</param>
+                </action>
+                <action behavior="Car" id="7" name="Simulate control" sid="2163659861845515" type="Bloop">
+                    <param id="0" name="Control">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block any="1" sid="4535825805768926">
+            <conditions>
+                <condition id="2" name="Key is down" sid="6244345915744973" type="Keyboard">
+                    <param id="0" name="Key">38 (Up arrow)</param>
+                </condition>
+                <condition id="2" name="Key is down" sid="9979157824626071" type="Keyboard">
+                    <param id="0" name="Key">32 (Space)</param>
+                </condition>
+                <condition id="2" name="Key is down" sid="5164041220326641" type="Keyboard">
+                    <param id="0" name="Key">87 (W)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="1929768485879572" type="sprRyan">
+                    <param id="0" name="Control">2</param>
+                </action>
+                <action behavior="8Direction" id="7" name="Simulate control" sid="9962554015541284" type="Blap">
+                    <param id="0" name="Control">2</param>
+                </action>
+                <action behavior="8Direction" id="7" name="Simulate control" sid="8703167876318804" type="HealBot">
+                    <param id="0" name="Control">2</param>
+                </action>
+                <action behavior="Car" id="7" name="Simulate control" sid="500723017680917" type="Bloop">
+                    <param id="0" name="Control">2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block any="1" sid="3888359403863773">
+            <conditions>
+                <condition id="2" name="Key is down" sid="4804828432275024" type="Keyboard">
+                    <param id="0" name="Key">37 (Left arrow)</param>
+                </condition>
+                <condition id="2" name="Key is down" sid="5489928815115065" type="Keyboard">
+                    <param id="0" name="Key">65 (A)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="1395790360626326" type="sprRyan">
+                    <param id="0" name="Control">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="2058586056055937" type="System">
+                    <param id="0" name="Variable">sprRyanAnimation</param>
+                    <param id="1" name="Value">&quot;RunningL&quot;</param>
+                </action>
+                <action behavior="8Direction" id="7" name="Simulate control" sid="2405493183988426" type="Blap">
+                    <param id="0" name="Control">0</param>
+                </action>
+                <action behavior="8Direction" id="7" name="Simulate control" sid="8439871542299737" type="HealBot">
+                    <param id="0" name="Control">0</param>
+                </action>
+                <action behavior="Car" id="7" name="Simulate control" sid="7794727397880165" type="Bloop">
+                    <param id="0" name="Control">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="802435955683798">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="6247321092860024" type="sprRyan">
+                    <param id="0" name="Object">sprLava</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-43" name="Go to next/previous layout" sid="1509823531593478" type="System">
+                    <param id="0" name="Which">0</param>
+                </action>
+                <action id="-22" name="Set layout angle" sid="4004952087485167" type="System">
+                    <param id="0" name="Angle">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5836076606081811">
+            <conditions>
+                <condition behavior="Platform" id="7" name="On stopped" sid="1450955399259224" type="sprRyan" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="8863412097091412" type="System">
+                    <param id="0" name="Variable">sprRyanAnimation</param>
+                    <param id="1" name="Value"> &quot;Idle&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3905437295784509">
+            <conditions>
+                <condition behavior="Platform" id="5" name="On jump" sid="5332603746066181" type="sprRyan" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="912923273028482" type="System">
+                    <param id="0" name="Variable">sprRyanAnimation</param>
+                    <param id="1" name="Value">&quot;Jumping&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6482603742335584">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="7397474657763369" type="sprRyan">
+                    <param id="0" name="Object">sprSwitch</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="5452107640294146">
+                    <conditions>
+                        <condition id="2" name="Is playing" sid="2704597628420828" type="sprSwitch">
+                            <param id="0" name="Animation">&quot;On&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="4418331771130355" type="sprSwitch">
+                            <param id="0" name="Animation">&quot;Off&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="737242145794661">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="6380642247797456" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="1320276085579588" type="sprSwitch">
+                            <param id="0" name="Animation">&quot;On&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="9928122558057698">
+            <conditions>
+                <condition id="4" inverted="1" name="Is any playing" sid="5989996918526686" type="inGameMusic" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="7696822890500112">
+                    <conditions>
+                        <condition id="5" inverted="1" name="Is tag playing" sid="2318128565700189" type="inGameMusic">
+                            <param id="0" name="Tag">&quot;inGameSound2&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="4061851845493491" type="inGameMusic">
+                            <param id="0" name="Audio file">inGameSound</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">50</param>
+                            <param id="1" name="Tag (optional)">&quot;inGameSound&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block any="1" sid="1680738395685589">
+            <conditions>
+                <condition id="2" name="Key is down" sid="5419715971863039" type="Keyboard">
+                    <param id="0" name="Key">17 (Ctrl)</param>
+                </condition>
+                <condition id="2" name="Key is down" sid="3420873825589966" type="Keyboard">
+                    <param id="0" name="Key">40 (Down arrow)</param>
+                </condition>
+                <condition id="2" name="Key is down" sid="5962801437809876" type="Keyboard">
+                    <param id="0" name="Key">83 (S)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="8100909978213325" type="System">
+                    <param id="0" name="Variable">sprRyanAnimation</param>
+                    <param id="1" name="Value">&quot;Crouch&quot;</param>
+                </action>
+                <action behavior="8Direction" id="7" name="Simulate control" sid="1698522383753605" type="Blap">
+                    <param id="0" name="Control">3</param>
+                </action>
+                <action behavior="8Direction" id="7" name="Simulate control" sid="5416142979588905" type="HealBot">
+                    <param id="0" name="Control">3</param>
+                </action>
+                <action behavior="Car" id="7" name="Simulate control" sid="3260710162343254" type="Bloop">
+                    <param id="0" name="Control">3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4002111435820284">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="7085926509946932" type="sprAnvil">
+                    <param id="0" name="Object">sprRyan</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="6405377294055856" type="System">
+                    <param id="0" name="Variable">sprRyanAnimation</param>
+                    <param id="1" name="Value">&quot;Idle&quot;</param>
+                </action>
+                <action id="-43" name="Go to next/previous layout" sid="6888012717794288" type="System">
+                    <param id="0" name="Which">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1692181744607448">
+            <conditions>
+                <condition behavior="Platform" id="9" name="On landed" sid="2571641415981567" type="sprRyan" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="1452185773840825" type="System">
+                    <param id="0" name="Variable">sprRyanAnimation</param>
+                    <param id="1" name="Value">&quot;Idle&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4411303827712477">
+            <conditions>
+                <condition id="2" name="Is playing" sid="86990093113603" type="sprSwitch">
+                    <param id="0" name="Animation">&quot;On&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="3772200574210158" type="Orangeplat">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action behavior="Solid" id="0" name="Set enabled" sid="4746673113365961" type="Orangeplat">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="AnvilPlaf" id="11" name="Set enabled" sid="2558712117458376" type="sprAnvil">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action behavior="Solid" id="0" name="Set enabled" sid="4371141772606777" type="GreenPlatform">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="5574970862470104" type="GreenPlatform">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2155436040430613">
+            <conditions>
+                <condition id="-22" name="Else" sid="9351980388259779" type="System" />
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="3844407362074521" type="Orangeplat">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action behavior="Solid" id="0" name="Set enabled" sid="4917906518634754" type="Orangeplat">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="149688133079025" type="GreenPlatform">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action behavior="Solid" id="0" name="Set enabled" sid="1123618251719072" type="GreenPlatform">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9847962192007543">
+            <conditions>
+                <condition id="0" name="On clicked" sid="5321179462453842" type="btnRestart" />
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="6005815345135432" type="System" />
+                <action id="-9" name="Set value" sid="9605664515715133" type="System">
+                    <param id="0" name="Variable">sprRyanAnimation</param>
+                    <param id="1" name="Value">&quot;Idle&quot;</param>
+                </action>
+                <action id="-22" name="Set layout angle" sid="2281962421004175" type="System">
+                    <param id="0" name="Angle">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="201369634737527">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="6243709301640373" type="System" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="4630588520396687" type="sprRyan">
+                    <param id="0" name="Animation">sprRyanAnimation</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="7267911097256087">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="8088427437106519" type="System">
+                            <param id="0" name="Variable">sprRyanAnimation</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;Jumping&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="4985289455843202" type="sprRyan">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <comment>If this is triggered, we change his look to idle and re-play after 5 seconds</comment>
+        <event-block sid="9799405533701177">
+            <conditions>
+                <condition id="4" name="On finished" sid="6711244777239131" type="sprVoidswalker">
+                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="7080339984013017" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action id="-15" name="Set visible" sid="1742876826650142" type="sprVoidswalkerBlast">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-22" name="Set angle toward position" sid="3948947333563441" type="sprVoidswalkerBlast">
+                    <param id="0" name="X">sprRyan.X</param>
+                    <param id="1" name="Y">sprRyan.Y</param>
+                </action>
+                <action behavior="Bullet" id="5" name="Set enabled" sid="8844376899359942" type="sprVoidswalkerBlast">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="4661960312757858" type="sprVoidswalker">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="-16" name="Wait" sid="3375250861910344" type="System">
+                    <param id="0" name="Seconds">1</param>
+                </action>
+                <action id="3" name="Start" sid="5675631987541135" type="sprVoidswalker">
+                    <param id="0" name="From">1</param>
+                </action>
+                <action id="-3" name="Create object" sid="2023107702677971" type="System">
+                    <param id="0" name="Object to create">sprVoidswalkerBlast</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">153</param>
+                    <param id="3" name="Y">318.951</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9515447226625117">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="9387739838313069" type="sprVoidswalkerBlast">
+                    <param id="0" name="Object">sprRyan</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="3379780686414436" type="sprVoidswalkerBlast" />
+                <action id="-42" name="Signal" sid="8836338456779246" type="System">
+                    <param id="0" name="Tag">SIG_TELEPORT_RYAN</param>
+                </action>
+            </actions>
+        </event-block>
+        <comment>Is SIG_TELEPORT_RYAN is received, it teleports Ryan with in the viewport. If he overlaps platform, respawn!</comment>
+        <event-block sid="7628808795806577">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="638240671750874" type="System" />
+            </conditions>
+            <actions>
+                <action id="-41" name="Wait for signal" sid="3016473110242623" type="System">
+                    <param id="0" name="Tag">SIG_TELEPORT_RYAN</param>
+                </action>
+                <action id="-1" name="Set X" sid="2893642730346715" type="sprRyan">
+                    <param id="0" name="X">random(563)</param>
+                </action>
+                <action id="-2" name="Set Y" sid="4657241228601519" type="sprRyan">
+                    <param id="0" name="Y">random(400)</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block any="1" sid="7289037850856443">
+                    <conditions>
+                        <condition id="-4" name="Is outside layout" sid="4847426429815686" type="sprRyan" />
+                        <condition id="1" name="Is overlapping another object" sid="3063907485355407" type="sprRyan">
+                            <param id="0" name="Object">sprSimplePlatform</param>
+                        </condition>
+                        <condition id="1" name="Is overlapping another object" sid="6897280651479913" type="sprRyan">
+                            <param id="0" name="Object">sprSwitchBase</param>
+                        </condition>
+                        <condition id="1" name="Is overlapping another object" sid="3243619770894606" type="sprBoss1">
+                            <param id="0" name="Object">sprRyan</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-42" name="Signal" sid="2060291526204539" type="System">
+                            <param id="0" name="Tag">SIG_TELEPORT_RYAN</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="1438031658915277">
+            <conditions>
+                <condition id="-29" name="On load complete" sid="5066499979815029" type="System" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="2037317350645162" type="System">
+                    <param id="0" name="Variable">sprRyanAnimation</param>
+                    <param id="1" name="Value">&quot;Idle&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1953803194412509">
+            <conditions>
+                <condition id="-3" inverted="1" name="Is on-screen" sid="5759094066276553" type="sprVoidswalkerBlast" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="8391607693208455" type="sprVoidswalkerBlast" />
+            </actions>
+        </event-block>
+        <event-block sid="6249539226630586">
+            <conditions>
+                <condition id="-1" name="Compare X" sid="2286121784813047" type="MovingPlatform">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="X co-ordinate">205</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="CustomMovement" id="5" name="Accelerate toward position" sid="1413168053679714" type="MovingPlatform">
+                    <param id="0" name="Acceleration">1600</param>
+                    <param id="1" name="X">600</param>
+                    <param id="2" name="Y">380</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7092510784563126">
+            <conditions>
+                <condition id="-1" name="Compare X" sid="8247554872954955" type="MovingPlatform">
+                    <param id="0" name="Comparison">5</param>
+                    <param id="1" name="X co-ordinate">600</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="CustomMovement" id="9" name="Stop stepping" sid="6352518518122151" type="MovingPlatform">
+                    <param id="0" name="Position">1</param>
+                </action>
+                <action behavior="CustomMovement" id="5" name="Accelerate toward position" sid="1531976088288838" type="MovingPlatform">
+                    <param id="0" name="Acceleration">1600</param>
+                    <param id="1" name="X">600</param>
+                    <param id="2" name="Y">100</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9931050697868757">
+            <conditions>
+                <condition id="-2" name="Compare Y" sid="8914171057752717" type="MovingPlatform">
+                    <param id="0" name="Comparison">3</param>
+                    <param id="1" name="Y co-ordinate">100</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="CustomMovement" id="0" name="Stop" sid="1566620904475506" type="MovingPlatform" />
+                <action behavior="CustomMovement" id="5" name="Accelerate toward position" sid="9144384078587384" type="MovingPlatform">
+                    <param id="0" name="Acceleration">1600</param>
+                    <param id="1" name="X">600</param>
+                    <param id="2" name="Y">380</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3373559553110515">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="1211588648069943" type="sprRyan">
+                    <param id="0" name="Object">SlimeBlock</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="3" name="Set deceleration" sid="4162982069970255" type="sprRyan">
+                    <param id="0" name="Deceleration">100000</param>
+                </action>
+                <action behavior="Platform" id="2" name="Set acceleration" sid="8171328321741913" type="sprRyan">
+                    <param id="0" name="Acceleration">1</param>
+                </action>
+                <action behavior="Platform" id="4" name="Set jump strength" sid="5488026760978554" type="sprRyan">
+                    <param id="0" name="Jump strength">1200</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="608358387074122">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="7940731205636205" type="System">
+                    <param id="0" name="Interval (seconds)">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="2" name="Set acceleration" sid="5563119051977813" type="sprRyan">
+                    <param id="0" name="Acceleration">1500</param>
+                </action>
+                <action behavior="Platform" id="3" name="Set deceleration" sid="4371983223792257" type="sprRyan">
+                    <param id="0" name="Deceleration">1500</param>
+                </action>
+                <action behavior="Platform" id="4" name="Set jump strength" sid="8604213211352632" type="sprRyan">
+                    <param id="0" name="Jump strength">600</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5692134410020193">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="5355330710285856" type="System" />
+                <condition id="-4" name="Is outside layout" sid="5098274881299575" type="sprRyan" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="5471375926589111" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="2016989244186133">
+                    <conditions>
+                        <condition id="-4" name="Is outside layout" sid="1884720934815645" type="sprRyan" />
+                    </conditions>
+                    <actions>
+                        <action id="-26" name="Restart layout" sid="7263949974592954" type="System" />
+                        <action id="-9" name="Set value" sid="16990190987344" type="System">
+                            <param id="0" name="Variable">sprRyanAnimation</param>
+                            <param id="1" name="Value">&quot;Idle&quot;</param>
+                        </action>
+                        <action id="-22" name="Set layout angle" sid="5666947754484653" type="System">
+                            <param id="0" name="Angle">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="6081627553566961">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="3007646660421354" type="TeleportBlock">
+                    <param id="0" name="Object">sprRyan</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="7318448339577913" type="System" />
+                <action id="-9" name="Set value" sid="3270977984710358" type="System">
+                    <param id="0" name="Variable">sprRyanAnimation</param>
+                    <param id="1" name="Value">&quot;Idle&quot;</param>
+                </action>
+                <action id="-22" name="Set layout angle" sid="2728558351267054" type="System">
+                    <param id="0" name="Angle">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="950513140286372">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="5727153927890082" type="Keyboard">
+                    <param id="0" name="Key">82 (R)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="3288472049715256" type="System" />
+                <action id="-9" name="Set value" sid="2471603769115341" type="System">
+                    <param id="0" name="Variable">sprRyanAnimation</param>
+                    <param id="1" name="Value">&quot;Idle&quot;</param>
+                </action>
+                <action id="-22" name="Set layout angle" sid="3564658145247156" type="System">
+                    <param id="0" name="Angle">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="937327511735404">
+            <conditions>
+                <condition behavior="Pin" id="0" inverted="1" name="Is pinned" sid="4675116186957752" type="GunFloating" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="725439218434802">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="1342483025616073" type="GunFloating">
+                            <param id="0" name="Object">sprRyan</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Pin" id="0" name="Pin to object" sid="9924374630761317" type="GunFloating">
+                            <param id="0" name="Pin to">sprRyan</param>
+                            <param id="1" name="Mode">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="677860883401042">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="6458164469209625" type="Keyboard">
+                    <param id="0" name="Key">90 (Z)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="8302729251624467" type="GunFloating">
+                    <param id="0" name="Object">Bullet</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">10</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7525072567183765">
+            <conditions>
+                <condition id="-3" inverted="1" name="Is on-screen" sid="7717985554225347" type="Bullet" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="5511320202081546" type="Bullet" />
+            </actions>
+        </event-block>
+        <event-block sid="2291881425724125">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="4582098812272012" type="Bullet">
+                    <param id="0" name="Object">SlimeBlock</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="9484828908431841" type="SlimeBlock" />
+                <action id="-9" name="Destroy" sid="701769166738955" type="Bullet" />
+            </actions>
+        </event-block>
+        <event-block sid="1963173081789561">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="7957272821060155" type="HealBot">
+                    <param id="0" name="Object">DestroyerWall</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="980207395687113" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="3843316939895357">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="2066238984421592" type="HealBot">
+                    <param id="0" name="Object">sprSwitch</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="6600410192933334">
+                    <conditions>
+                        <condition id="2" name="Is playing" sid="3816495196153891" type="sprSwitch">
+                            <param id="0" name="Animation">&quot;On&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="6609969096440226" type="sprSwitch">
+                            <param id="0" name="Animation">&quot;Off&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4437406708731815">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="2709684469253577" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="6674379513064836" type="sprSwitch">
+                            <param id="0" name="Animation">&quot;On&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="5620344579628237">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="1984532471399554" type="Bloop">
+                    <param id="0" name="Object">SlimeBlock</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="5332309376163376" type="Bloop" />
+                <action id="-9" name="Destroy" sid="2514091325028089" type="SlimeBlock" />
+            </actions>
+        </event-block>
+        <event-block sid="7826272164692499">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="5545648028501454" type="Bloop">
+                    <param id="0" name="Object">Orangeplat</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="6208600931690824" type="Bloop" />
+            </actions>
+        </event-block>
+        <event-block sid="479229638307673">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="5746712241013211" type="HealthDart">
+                    <param id="0" name="Object">sprRyan</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="3413498477917605" type="HealthDart" />
+                <action id="-26" name="Restart layout" sid="6000204666342799" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="9908686589198925">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="6819890920450522" type="System">
+                    <param id="0" name="Interval (seconds)">1.5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="1319659151086795" type="Blap">
+                    <param id="0" name="Object">HealthDart</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-22" name="Set angle toward position" sid="9843405062307784" type="HealthDart">
+                    <param id="0" name="X">(sprRyan.X)</param>
+                    <param id="1" name="Y">(sprRyan.Y)</param>
+                </action>
+                <action behavior="Bullet" id="5" name="Set enabled" sid="8282821351149587" type="HealthDart">
+                    <param id="0" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1754612994278282">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="3466114191576317" type="HealthDart">
+                    <param id="0" name="Object">SlimeBlock</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="7196636154883988" type="HealthDart" />
+            </actions>
+        </event-block>
+        <event-block sid="2045552542647982">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="4357650385345448" type="HealthDart">
+                    <param id="0" name="Object">GreenPlatform</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="4817188738238745" type="HealthDart" />
+            </actions>
+        </event-block>
+        <event-block sid="2664047712699754">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="294630355207745" type="Bullet">
+                    <param id="0" name="Object">Orangeplat</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Bullet" id="4" name="Bounce off object" sid="3854427033196926" type="Bullet">
+                    <param id="0" name="Object">Orangeplat</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9678751165756456">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="6524631399866713" type="Bullet">
+                    <param id="0" name="Object">Blap</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="7927834738393044" type="Blap" />
+                <action id="-9" name="Destroy" sid="3394570737571456" type="Bullet" />
+            </actions>
+        </event-block>
+        <event-block sid="660040149158945">
+            <conditions>
+                <condition id="-3" inverted="1" name="Is on-screen" sid="4481286658296144" type="HealthDart" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="1004367214109418" type="HealthDart" />
+            </actions>
+        </event-block>
+        <event-block sid="1612734899990143">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="323331158480081" type="Bomb">
+                    <param id="0" name="Object">Sheild</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="1886033083742286" type="Bomb" />
+                <action id="-5" name="Set width" sid="7127735860349699" type="Sheild">
+                    <param id="0" name="Width">Sheild.Width-20</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2572050905799542">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="4461355833167827" type="Bullet">
+                    <param id="0" name="Object">Sheild</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="4596452356319978" type="Bullet" />
+                <action id="-5" name="Set width" sid="2848629841405331" type="Sheild">
+                    <param id="0" name="Width">Sheild.Width-20</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7877255028719846">
+            <conditions>
+                <condition id="-5" name="Compare width" sid="6437222470069876" type="Sheild">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Width">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="4896992911988358" type="Sheild" />
+            </actions>
+        </event-block>
+        <event-block sid="3444467294097051">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="2109702970511511" type="Bullet">
+                    <param id="0" name="Object">SWARM</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="6678710999698398" type="SWARM" />
+                <action id="-9" name="Destroy" sid="9428681995334996" type="Bullet" />
+                <action behavior="Rotate" id="0" name="Set speed" sid="3657813154197019" type="GunFloating">
+                    <param id="0" name="Speed">GunFloating.Rotate.Speed+20</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3792793415407127">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="5064278483249388" type="System">
+                    <param id="0" name="Interval (seconds)">random(5)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="381518055290273" type="SWARM">
+                    <param id="0" name="Object">Bomb</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action behavior="Bullet" id="3" name="Set angle of motion" sid="8326655589135559" type="Bomb">
+                    <param id="0" name="Angle">random(180)</param>
+                </action>
+                <action behavior="Bullet" id="0" name="Set speed" sid="8501335036378665" type="Bomb">
+                    <param id="0" name="Speed">320</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4590339215455447">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="2558375846351658" type="Bomb">
+                    <param id="0" name="Object">Bullet</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="3262162983825578" type="Bullet" />
+                <action id="-9" name="Destroy" sid="3591225870242387" type="Bomb" />
+            </actions>
+        </event-block>
+        <event-block sid="8470242974231741">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="1979624901798732" type="Bomb">
+                    <param id="0" name="Object">sprRyan</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="8015177359891953" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="8579641446026429">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="7208945351176812" type="Bomb">
+                    <param id="0" name="Object">Orangeplat</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Bullet" id="4" name="Bounce off object" sid="4564246650824446" type="Bomb">
+                    <param id="0" name="Object">Orangeplat</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8874203910040446">
+            <conditions>
+                <condition id="-3" inverted="1" name="Is on-screen" sid="8138928865585304" type="Bomb" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="8112142784222203" type="Bomb" />
+            </actions>
+        </event-block>
+        <event-block sid="3099438395246785">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="7672195060899272" type="System" />
+                <condition id="-1" name="Compare X" sid="3546612028694714" type="SWARM">
+                    <param id="0" name="Comparison">2</param>
+                    <param id="1" name="X co-ordinate">780</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-1" name="Set X" sid="5479715606902113" type="SWARM">
+                    <param id="0" name="X">SWARM.X+1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6053506786786568">
+            <conditions>
+                <condition id="-1" name="Compare X" sid="6788700177471597" type="SWARM">
+                    <param id="0" name="Comparison">5</param>
+                    <param id="1" name="X co-ordinate">780</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-1" name="Set X" sid="4923075045490663" type="SWARM">
+                    <param id="0" name="X">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1193890107851882">
+            <conditions>
+                <condition id="0" name="On clicked" sid="1427659897705068" type="Skip" />
+            </conditions>
+            <actions>
+                <action id="-43" name="Go to next/previous layout" sid="5294522561257828" type="System">
+                    <param id="0" name="Which">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
