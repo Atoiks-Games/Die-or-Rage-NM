@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="background" uid="340">
+                <instance type="sprStansteadBackground" uid="340">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -135,7 +135,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Orangeplat" uid="320">
+                <instance type="sprOrangePlatform" uid="320">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -164,7 +164,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Orangeplat" uid="326">
+                <instance type="sprOrangePlatform" uid="326">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -193,7 +193,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Orangeplat" uid="328">
+                <instance type="sprOrangePlatform" uid="328">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -273,7 +273,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="GreenPlatform" uid="329">
+                <instance type="sprGreenPlatform" uid="329">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -302,7 +302,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="GreenPlatform" uid="330">
+                <instance type="sprGreenPlatform" uid="330">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -382,7 +382,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="GreenPlatform" uid="336">
+                <instance type="sprGreenPlatform" uid="336">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -411,7 +411,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="GreenPlatform" uid="337">
+                <instance type="sprGreenPlatform" uid="337">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -440,7 +440,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="GreenPlatform" uid="339">
+                <instance type="sprGreenPlatform" uid="339">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -469,7 +469,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Skip" uid="315">
+                <instance type="btnSkip" uid="315">
                     <properties>
                         <type>Button</type>
                         <text>Skip</text>
@@ -493,7 +493,7 @@
                         <hotspotY>0</hotspotY>
                     </world>
                 </instance>
-                <instance type="GreenPlatform" uid="321">
+                <instance type="sprGreenPlatform" uid="321">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -522,7 +522,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="GreenPlatform" uid="322">
+                <instance type="sprGreenPlatform" uid="322">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -551,7 +551,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="GreenPlatform" uid="323">
+                <instance type="sprGreenPlatform" uid="323">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -580,7 +580,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="GreenPlatform" uid="324">
+                <instance type="sprGreenPlatform" uid="324">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -609,7 +609,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="GreenPlatform" uid="327">
+                <instance type="sprGreenPlatform" uid="327">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

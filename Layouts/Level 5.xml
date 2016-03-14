@@ -156,7 +156,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Orangeplat" uid="24">
+                <instance type="sprOrangePlatform" uid="24">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -185,7 +185,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Orangeplat" uid="25">
+                <instance type="sprOrangePlatform" uid="25">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -289,7 +289,7 @@
                         <hotspotY>0</hotspotY>
                     </world>
                 </instance>
-                <instance type="Orangeplat" uid="462">
+                <instance type="sprOrangePlatform" uid="462">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -318,7 +318,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Skip" uid="145">
+                <instance type="btnSkip" uid="145">
                     <properties>
                         <type>Button</type>
                         <text>Skip</text>

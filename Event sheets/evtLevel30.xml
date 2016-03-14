@@ -7,7 +7,7 @@
         <event-block sid="9570332554990885">
             <conditions>
                 <condition id="-31" inverted="1" name="Object UID exists" sid="9729268625006543" type="System">
-                    <param id="0" name="UID">SWARM.UID</param>
+                    <param id="0" name="UID">sprSWARM.UID</param>
                 </condition>
             </conditions>
             <actions>

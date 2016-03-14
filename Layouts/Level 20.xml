@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="background" uid="248">
+                <instance type="sprStansteadBackground" uid="248">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -51,7 +51,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="HealBot" uid="225">
+                <instance type="sprHealBot" uid="225">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -91,7 +91,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="HealBot" uid="226">
+                <instance type="sprHealBot" uid="226">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -169,7 +169,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite" uid="229">
+                <instance type="sprOneWayBlock" uid="229">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -198,7 +198,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Orangeplat" uid="228">
+                <instance type="sprOrangePlatform" uid="228">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -227,7 +227,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Orangeplat" uid="230">
+                <instance type="sprOrangePlatform" uid="230">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -256,7 +256,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Orangeplat" uid="231">
+                <instance type="sprOrangePlatform" uid="231">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -323,7 +323,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="DestroyerWall" uid="233">
+                <instance type="sprDestroyerWall" uid="233">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -345,7 +345,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="DestroyerWall" uid="234">
+                <instance type="sprDestroyerWall" uid="234">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -367,7 +367,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="DestroyerWall" uid="235">
+                <instance type="sprDestroyerWall" uid="235">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -389,7 +389,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="DestroyerWall" uid="236">
+                <instance type="sprDestroyerWall" uid="236">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -411,7 +411,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="DestroyerWall" uid="237">
+                <instance type="sprDestroyerWall" uid="237">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -433,7 +433,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="HealBot" uid="238">
+                <instance type="sprHealBot" uid="238">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -473,7 +473,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="DestroyerWall" uid="239">
+                <instance type="sprDestroyerWall" uid="239">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -495,7 +495,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="DestroyerWall" uid="240">
+                <instance type="sprDestroyerWall" uid="240">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -517,7 +517,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="DestroyerWall" uid="241">
+                <instance type="sprDestroyerWall" uid="241">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -539,7 +539,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="DestroyerWall" uid="242">
+                <instance type="sprDestroyerWall" uid="242">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -561,7 +561,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="DestroyerWall" uid="243">
+                <instance type="sprDestroyerWall" uid="243">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -658,7 +658,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="DestroyerWall" uid="246">
+                <instance type="sprDestroyerWall" uid="246">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -680,7 +680,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Skip" uid="482">
+                <instance type="btnSkip" uid="482">
                     <properties>
                         <type>Button</type>
                         <text>Skip</text>

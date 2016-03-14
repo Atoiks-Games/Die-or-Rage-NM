@@ -467,7 +467,7 @@
         <object-type name="txtInstructions1" sid="1078987437207329">
             <plugin id="Text" />
         </object-type>
-        <object-type name="Orangeplat" sid="1573846639824846">
+        <object-type name="sprOrangePlatform" sid="1573846639824846">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Solid" sid="554786183386613">
@@ -567,7 +567,7 @@
         <object-type name="btnRestart" sid="9132191535282894">
             <plugin id="Button" />
         </object-type>
-        <object-type name="Sprite" sid="7021103342740831">
+        <object-type name="sprOneWayBlock" sid="7021103342740831">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Jumpthru" sid="7898354983260855">
@@ -624,7 +624,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="MovingPlatform" sid="9914406066011315">
+        <object-type name="sprMovingPlatform" sid="9914406066011315">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="CustomMovement" sid="4359375813244705">
@@ -647,7 +647,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="SlimeBlock" sid="9808075719011653">
+        <object-type name="sprSlimeBlock" sid="9808075719011653">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Solid" sid="3218474715609454">
@@ -670,7 +670,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="TeleportBlock" sid="6535881045905139">
+        <object-type name="sprTeleportBlock" sid="6535881045905139">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Solid" sid="7253294786848281">
@@ -710,7 +710,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="GunFloating" sid="9112318802324984">
+        <object-type name="sprGunFloating" sid="9112318802324984">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Pin" sid="1954319183090862">
@@ -735,7 +735,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Bullet" sid="4470185025821258">
+        <object-type name="sprBullet" sid="4470185025821258">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Bullet" sid="6126830167708249">
@@ -782,7 +782,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="background" sid="9480262485619111">
+        <object-type name="sprStansteadBackground" sid="9480262485619111">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9923634517773416" speed="5">
@@ -806,7 +806,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="HeathBar" sid="4511428711388394">
+        <object-type name="sprHeathBar" sid="4511428711388394">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2541952126370561" speed="5">
@@ -814,7 +814,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Portal" sid="3037839886903572">
+        <object-type name="sprPortal" sid="3037839886903572">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Rotate" sid="8578012975131664">
@@ -851,7 +851,7 @@
         <object-type name="Text11" sid="5698340078039382">
             <plugin id="Text" />
         </object-type>
-        <object-type name="HealBot" sid="5746546406169579">
+        <object-type name="sprHealBot" sid="5746546406169579">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="8Direction" sid="6836075600087894">
@@ -880,7 +880,7 @@
         <object-type name="Text12" sid="1414191288176734">
             <plugin id="Text" />
         </object-type>
-        <object-type name="DestroyerWall" sid="9663109482463299">
+        <object-type name="sprDestroyerWall" sid="9663109482463299">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9523263184640513" speed="5">
@@ -897,7 +897,7 @@
         <object-type name="Text15" sid="6026732599157116">
             <plugin id="Text" />
         </object-type>
-        <object-type name="Bloop" sid="6801551951144721">
+        <object-type name="sprBloop" sid="6801551951144721">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Car" sid="3170619435917267">
@@ -926,7 +926,7 @@
         <object-type name="Text17" sid="3326042850817923">
             <plugin id="Text" />
         </object-type>
-        <object-type name="Blap" sid="4215394916928585">
+        <object-type name="sprBlap" sid="4215394916928585">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="8Direction" sid="907236327105839">
@@ -952,7 +952,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="HealthDart" sid="5387077180318375">
+        <object-type name="sprHealthDart" sid="5387077180318375">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="DestroyOutsideLayout" sid="2653510523667963">
@@ -983,7 +983,7 @@
         <object-type name="Text19" sid="6787771943563288">
             <plugin id="Text" />
         </object-type>
-        <object-type name="GreenPlatform" sid="1970106968416757">
+        <object-type name="sprGreenPlatform" sid="1970106968416757">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Solid" sid="7215560795694625">
@@ -1027,7 +1027,7 @@
         <object-type name="Text27" sid="1544062076454818">
             <plugin id="Text" />
         </object-type>
-        <object-type name="Bomb" sid="7947602399177265">
+        <object-type name="sprBomb" sid="7947602399177265">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Bullet" sid="9891695045415253">
@@ -1040,7 +1040,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sheild" sid="4005188597504472">
+        <object-type name="sprSheild" sid="4005188597504472">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9310568073468279" speed="5">
@@ -1055,7 +1055,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="SWARM" sid="3615032765928977">
+        <object-type name="sprSWARM" sid="3615032765928977">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7691659076077788" speed="5">
@@ -1084,7 +1084,7 @@
         <object-type name="Text31" sid="4576602172845559">
             <plugin id="Text" />
         </object-type>
-        <object-type name="Skip" sid="2549293193634901">
+        <object-type name="btnSkip" sid="2549293193634901">
             <plugin id="Button" />
         </object-type>
     </object-folder>

@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="background" uid="281">
+                <instance type="sprStansteadBackground" uid="281">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -75,7 +75,7 @@
                         <hotspotY>0</hotspotY>
                     </world>
                 </instance>
-                <instance type="Bloop" uid="250">
+                <instance type="sprBloop" uid="250">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -112,7 +112,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Orangeplat" uid="251">
+                <instance type="sprOrangePlatform" uid="251">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -179,7 +179,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Orangeplat" uid="253">
+                <instance type="sprOrangePlatform" uid="253">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -208,7 +208,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Orangeplat" uid="254">
+                <instance type="sprOrangePlatform" uid="254">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -237,7 +237,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Orangeplat" uid="255">
+                <instance type="sprOrangePlatform" uid="255">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -266,7 +266,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="HealBot" uid="257">
+                <instance type="sprHealBot" uid="257">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -306,7 +306,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="DestroyerWall" uid="258">
+                <instance type="sprDestroyerWall" uid="258">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -328,7 +328,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="DestroyerWall" uid="259">
+                <instance type="sprDestroyerWall" uid="259">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -350,7 +350,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SlimeBlock" uid="260">
+                <instance type="sprSlimeBlock" uid="260">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -444,7 +444,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SlimeBlock" uid="276">
+                <instance type="sprSlimeBlock" uid="276">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -487,7 +487,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Orangeplat" uid="277">
+                <instance type="sprOrangePlatform" uid="277">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -516,7 +516,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SlimeBlock" uid="278">
+                <instance type="sprSlimeBlock" uid="278">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -581,7 +581,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SlimeBlock" uid="280">
+                <instance type="sprSlimeBlock" uid="280">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -624,7 +624,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SlimeBlock" uid="485">
+                <instance type="sprSlimeBlock" uid="485">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -667,7 +667,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Bloop" uid="486">
+                <instance type="sprBloop" uid="486">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -704,7 +704,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="HealBot" uid="487">
+                <instance type="sprHealBot" uid="487">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -744,7 +744,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Skip" uid="282">
+                <instance type="btnSkip" uid="282">
                     <properties>
                         <type>Button</type>
                         <text>Skip</text>

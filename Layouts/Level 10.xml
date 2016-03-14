@@ -145,7 +145,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Orangeplat" uid="63">
+                <instance type="sprOrangePlatform" uid="63">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -220,7 +220,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Orangeplat" uid="84">
+                <instance type="sprOrangePlatform" uid="84">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -249,7 +249,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Orangeplat" uid="86">
+                <instance type="sprOrangePlatform" uid="86">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -278,7 +278,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Orangeplat" uid="87">
+                <instance type="sprOrangePlatform" uid="87">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -307,7 +307,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Orangeplat" uid="468">
+                <instance type="sprOrangePlatform" uid="468">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -336,7 +336,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Orangeplat" uid="61">
+                <instance type="sprOrangePlatform" uid="61">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -416,7 +416,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="GreenPlatform" uid="471">
+                <instance type="sprGreenPlatform" uid="471">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -445,7 +445,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="GreenPlatform" uid="472">
+                <instance type="sprGreenPlatform" uid="472">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -474,7 +474,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="GreenPlatform" uid="473">
+                <instance type="sprGreenPlatform" uid="473">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -503,7 +503,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Skip" uid="156">
+                <instance type="btnSkip" uid="156">
                     <properties>
                         <type>Button</type>
                         <text>Skip</text>

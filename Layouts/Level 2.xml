@@ -140,7 +140,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Orangeplat" uid="16">
+                <instance type="sprOrangePlatform" uid="16">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -193,7 +193,7 @@
                         <hotspotY>0</hotspotY>
                     </world>
                 </instance>
-                <instance type="Skip" uid="121">
+                <instance type="btnSkip" uid="121">
                     <properties>
                         <type>Button</type>
                         <text>Skip</text>

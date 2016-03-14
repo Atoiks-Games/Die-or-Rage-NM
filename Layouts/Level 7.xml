@@ -142,7 +142,7 @@
                         <hotspotY>0</hotspotY>
                     </world>
                 </instance>
-                <instance type="MovingPlatform" uid="105">
+                <instance type="sprMovingPlatform" uid="105">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -178,7 +178,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Orangeplat" uid="106">
+                <instance type="sprOrangePlatform" uid="106">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -229,7 +229,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Orangeplat" uid="110">
+                <instance type="sprOrangePlatform" uid="110">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -258,7 +258,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Orangeplat" uid="111">
+                <instance type="sprOrangePlatform" uid="111">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -287,7 +287,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Orangeplat" uid="17">
+                <instance type="sprOrangePlatform" uid="17">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -316,7 +316,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TeleportBlock" uid="30">
+                <instance type="sprTeleportBlock" uid="30">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -345,7 +345,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Skip" uid="148">
+                <instance type="btnSkip" uid="148">
                     <properties>
                         <type>Button</type>
                         <text>Skip</text>

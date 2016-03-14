@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="background" uid="453">
+                <instance type="sprStansteadBackground" uid="453">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -89,7 +89,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="GunFloating" uid="426">
+                <instance type="sprGunFloating" uid="426">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -142,7 +142,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Bomb" uid="428">
+                <instance type="sprBomb" uid="428">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -176,7 +176,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SWARM" uid="434">
+                <instance type="sprSWARM" uid="434">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -198,7 +198,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SWARM" uid="435">
+                <instance type="sprSWARM" uid="435">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -220,7 +220,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SWARM" uid="436">
+                <instance type="sprSWARM" uid="436">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -242,7 +242,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SWARM" uid="438">
+                <instance type="sprSWARM" uid="438">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -264,7 +264,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SWARM" uid="439">
+                <instance type="sprSWARM" uid="439">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -286,7 +286,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SWARM" uid="440">
+                <instance type="sprSWARM" uid="440">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -308,7 +308,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SWARM" uid="441">
+                <instance type="sprSWARM" uid="441">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -330,7 +330,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SWARM" uid="442">
+                <instance type="sprSWARM" uid="442">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -352,7 +352,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SWARM" uid="444">
+                <instance type="sprSWARM" uid="444">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -374,7 +374,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SWARM" uid="445">
+                <instance type="sprSWARM" uid="445">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -396,7 +396,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SWARM" uid="446">
+                <instance type="sprSWARM" uid="446">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -418,7 +418,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SWARM" uid="447">
+                <instance type="sprSWARM" uid="447">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -440,7 +440,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SWARM" uid="448">
+                <instance type="sprSWARM" uid="448">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -462,7 +462,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SWARM" uid="449">
+                <instance type="sprSWARM" uid="449">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -484,7 +484,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SWARM" uid="450">
+                <instance type="sprSWARM" uid="450">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -506,7 +506,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SWARM" uid="451">
+                <instance type="sprSWARM" uid="451">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -552,7 +552,7 @@
                         <hotspotY>0</hotspotY>
                     </world>
                 </instance>
-                <instance type="Orangeplat" uid="399">
+                <instance type="sprOrangePlatform" uid="399">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -581,7 +581,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Skip" uid="404">
+                <instance type="btnSkip" uid="404">
                     <properties>
                         <type>Button</type>
                         <text>Skip</text>
@@ -605,7 +605,7 @@
                         <hotspotY>0</hotspotY>
                     </world>
                 </instance>
-                <instance type="Orangeplat" uid="407">
+                <instance type="sprOrangePlatform" uid="407">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -634,7 +634,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Orangeplat" uid="415">
+                <instance type="sprOrangePlatform" uid="415">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -663,7 +663,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Orangeplat" uid="416">
+                <instance type="sprOrangePlatform" uid="416">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -692,7 +692,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Orangeplat" uid="418">
+                <instance type="sprOrangePlatform" uid="418">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -721,7 +721,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Orangeplat" uid="419">
+                <instance type="sprOrangePlatform" uid="419">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -750,7 +750,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Orangeplat" uid="423">
+                <instance type="sprOrangePlatform" uid="423">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -779,7 +779,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Orangeplat" uid="490">
+                <instance type="sprOrangePlatform" uid="490">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -808,7 +808,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Orangeplat" uid="491">
+                <instance type="sprOrangePlatform" uid="491">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -837,7 +837,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Orangeplat" uid="493">
+                <instance type="sprOrangePlatform" uid="493">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -866,7 +866,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Orangeplat" uid="496">
+                <instance type="sprOrangePlatform" uid="496">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -895,7 +895,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SWARM" uid="497">
+                <instance type="sprSWARM" uid="497">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -917,7 +917,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SWARM" uid="498">
+                <instance type="sprSWARM" uid="498">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -939,7 +939,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SWARM" uid="499">
+                <instance type="sprSWARM" uid="499">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -961,7 +961,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SWARM" uid="500">
+                <instance type="sprSWARM" uid="500">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -983,7 +983,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SWARM" uid="501">
+                <instance type="sprSWARM" uid="501">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1005,7 +1005,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SWARM" uid="502">
+                <instance type="sprSWARM" uid="502">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1027,7 +1027,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SWARM" uid="503">
+                <instance type="sprSWARM" uid="503">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1049,7 +1049,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SWARM" uid="504">
+                <instance type="sprSWARM" uid="504">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1071,7 +1071,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SWARM" uid="505">
+                <instance type="sprSWARM" uid="505">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1093,7 +1093,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SWARM" uid="506">
+                <instance type="sprSWARM" uid="506">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1166,7 +1166,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="MovingPlatform" uid="417">
+                <instance type="sprMovingPlatform" uid="417">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

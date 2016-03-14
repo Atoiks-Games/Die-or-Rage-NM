@@ -146,7 +146,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="GunFloating" uid="150">
+                <instance type="sprGunFloating" uid="150">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -177,7 +177,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Bullet" uid="151">
+                <instance type="sprBullet" uid="151">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -224,7 +224,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="HeathBar" uid="169">
+                <instance type="sprHeathBar" uid="169">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -270,7 +270,7 @@
                         <hotspotY>0</hotspotY>
                     </world>
                 </instance>
-                <instance type="Skip" uid="176">
+                <instance type="btnSkip" uid="176">
                     <properties>
                         <type>Button</type>
                         <text>Skip</text>
