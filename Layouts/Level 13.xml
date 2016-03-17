@@ -135,8 +135,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>48.913043976</x>
-                        <y>358.000213623</y>
+                        <x>49</x>
+                        <y>367</y>
                         <z>0</z>
                         <width>114</width>
                         <height>7</height>
@@ -144,35 +144,6 @@
                         <hotspotX>0.478260875</hotspotX>
                         <hotspotY>0.285714298</hotspotY>
                         <angle>-0.000020751</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="sprOrangePlatform" uid="131">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>479</x>
-                        <y>158</y>
-                        <z>0</z>
-                        <width>147</width>
-                        <height>7</height>
-                        <depth>0</depth>
-                        <hotspotX>0.478260875</hotspotX>
-                        <hotspotY>0.285714298</hotspotY>
-                        <angle>-0.79412508</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -273,10 +244,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>742.782653809</x>
+                        <x>618.087036133</x>
                         <y>156</y>
                         <z>0</z>
-                        <width>213</width>
+                        <width>452</width>
                         <height>7</height>
                         <depth>0</depth>
                         <hotspotX>0.478260875</hotspotX>
