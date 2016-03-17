@@ -149,35 +149,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="sprOrangePlatform" uid="364">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>723.245727539</x>
-                        <y>58.658332825</y>
-                        <z>0</z>
-                        <width>190</width>
-                        <height>7</height>
-                        <depth>0</depth>
-                        <hotspotX>0.478260875</hotspotX>
-                        <hotspotY>0.285714298</hotspotY>
-                        <angle>0.80980289</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="sprOrangePlatform" uid="365">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -530,8 +501,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>90</x>
-                        <y>453</y>
+                        <x>4</x>
+                        <y>18</y>
                         <z>0</z>
                         <width>72</width>
                         <height>24</height>

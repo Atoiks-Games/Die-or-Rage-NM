@@ -464,9 +464,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="txtInstructions1" sid="1078987437207329">
-            <plugin id="Text" />
-        </object-type>
         <object-type name="sprOrangePlatform" sid="1573846639824846">
             <plugin id="Sprite" />
             <behaviors>
@@ -487,17 +484,11 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="txtInstructions2" sid="1354441244099174">
-            <plugin id="Text" />
-        </object-type>
         <object-type name="txtWelcomeText" sid="2610324872628948">
             <plugin id="Text" />
         </object-type>
         <object-type name="btnGameStart" sid="7508161826386051">
             <plugin id="Button" />
-        </object-type>
-        <object-type name="Text" sid="3504069485159818">
-            <plugin id="Text" />
         </object-type>
         <object-type name="sprSwitchBase" sid="3499903209424186">
             <plugin id="Sprite" />
@@ -518,9 +509,6 @@
                     </frame>
                 </animation>
             </animation-folder>
-        </object-type>
-        <object-type name="Text2" sid="8979405186066276">
-            <plugin id="Text" />
         </object-type>
         <object-type name="btnReplayIntro" sid="6793833176544345">
             <plugin id="Button" />
@@ -560,9 +548,6 @@
                     <frame duration="1" hotspotX="4.95455" hotspotY="0.890476" original-source="C:\Users\gui\Downloads\Orange Switch Head On.png" />
                 </animation>
             </animation-folder>
-        </object-type>
-        <object-type name="Text3" sid="5328986719339563">
-            <plugin id="Text" />
         </object-type>
         <object-type name="btnRestart" sid="9132191535282894">
             <plugin id="Button" />
@@ -827,30 +812,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Text4" sid="8275061726959531">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="Text5" sid="3782481250478459">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="Text6" sid="2613059645361874">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="Text7" sid="2147733555181386">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="Text8" sid="2478460135446398">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="Text9" sid="1746573605548226">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="Text10" sid="7197115494373391">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="Text11" sid="5698340078039382">
-            <plugin id="Text" />
-        </object-type>
         <object-type name="sprHealBot" sid="5746546406169579">
             <plugin id="Sprite" />
             <behaviors>
@@ -877,9 +838,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Text12" sid="1414191288176734">
-            <plugin id="Text" />
-        </object-type>
         <object-type name="sprDestroyerWall" sid="9663109482463299">
             <plugin id="Sprite" />
             <animation-folder>
@@ -887,15 +845,6 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
-        </object-type>
-        <object-type name="Text13" sid="4101816384798656">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="Text14" sid="6474847939125345">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="Text15" sid="6026732599157116">
-            <plugin id="Text" />
         </object-type>
         <object-type name="sprBloop" sid="6801551951144721">
             <plugin id="Sprite" />
@@ -919,12 +868,6 @@
                     </frame>
                 </animation>
             </animation-folder>
-        </object-type>
-        <object-type name="Text16" sid="3172146415902948">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="Text17" sid="3326042850817923">
-            <plugin id="Text" />
         </object-type>
         <object-type name="sprBlap" sid="4215394916928585">
             <plugin id="Sprite" />
@@ -977,12 +920,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Text18" sid="9406503054161828">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="Text19" sid="6787771943563288">
-            <plugin id="Text" />
-        </object-type>
         <object-type name="sprGreenPlatform" sid="1970106968416757">
             <plugin id="Sprite" />
             <behaviors>
@@ -1003,30 +940,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Text20" sid="3090114488055425">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="Text21" sid="9001357377544045">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="Text22" sid="5696405890707031">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="Text23" sid="360619233636925">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="Text24" sid="4189522907193929">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="Text25" sid="4294768724298926">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="Text26" sid="7235938365518439">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="Text27" sid="1544062076454818">
-            <plugin id="Text" />
-        </object-type>
         <object-type name="sprBomb" sid="7947602399177265">
             <plugin id="Sprite" />
             <behaviors>
@@ -1037,21 +950,6 @@
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2621242767409124" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="sprSheild" sid="4005188597504472">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9310568073468279" speed="5">
-                    <frame duration="1" hotspotX="0.479638" hotspotY="1.01961">
-                        <collision-poly>
-                            <point x="0.00339367" y="0.00980392" />
-                            <point x="0.997738" y="0.0196078" />
-                            <point x="0.996606" y="0.985294" />
-                            <point x="0.00339367" y="0.980392" />
-                        </collision-poly>
-                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -1072,15 +970,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Text28" sid="4565462262670749">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="Text29" sid="6442789681151352">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="Text30" sid="8242533085417818">
-            <plugin id="Text" />
-        </object-type>
         <object-type name="Text31" sid="4576602172845559">
             <plugin id="Text" />
         </object-type>
@@ -1091,6 +980,7 @@
     <families />
     <layout-folder>
         <layout>StartPage.xml</layout>
+        <layout>Intro.xml</layout>
         <layout>Level 1.xml</layout>
         <layout>Level 2.xml</layout>
         <layout>Level 3.xml</layout>

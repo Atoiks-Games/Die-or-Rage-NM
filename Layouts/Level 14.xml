@@ -77,36 +77,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>170</x>
-                        <y>35</y>
+                        <x>149</x>
+                        <y>354</y>
                         <z>0</z>
                         <width>31.101387024</width>
                         <height>68.478919983</height>
                         <depth>0</depth>
                         <hotspotX>0.387596905</hotspotX>
                         <hotspotY>0.126712322</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="sprLava" uid="144">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1038</x>
-                        <y>149</y>
-                        <z>0</z>
-                        <width>151.373275757</width>
-                        <height>166.727554321</height>
-                        <depth>0</depth>
-                        <hotspotX>2.285714388</hotspotX>
-                        <hotspotY>0.129870132</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -154,8 +132,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>180</x>
-                        <y>58</y>
+                        <x>160</x>
+                        <y>377</y>
                         <z>0</z>
                         <width>59.169021606</width>
                         <height>24.421562195</height>
@@ -180,8 +158,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>781</x>
-                        <y>455</y>
+                        <x>750</x>
+                        <y>77</y>
                         <z>0</z>
                         <width>72</width>
                         <height>24</height>
@@ -190,7 +168,50 @@
                         <hotspotY>0</hotspotY>
                     </world>
                 </instance>
-                <instance type="sprHealBot" uid="49">
+                <instance type="sprSlimeBlock" uid="49">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>Yes</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>Yes</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.9</friction>
+                                <elasticity>0.9</elasticity>
+                                <linear-damping>0.9</linear-damping>
+                                <angular-damping>0.9</angular-damping>
+                                <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>713</x>
+                        <y>367</y>
+                        <z>0</z>
+                        <width>74</width>
+                        <height>117</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.503355682</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="sprHealBot" uid="67">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -218,8 +239,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>173</x>
-                        <y>128</y>
+                        <x>788</x>
+                        <y>379</y>
                         <z>0</z>
                         <width>37.579391479</width>
                         <height>29.750350952</height>
@@ -227,6 +248,306 @@
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.503401339</hotspotY>
                         <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="sprDestroyerWall" uid="72">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>782</x>
+                        <y>313</y>
+                        <z>0</z>
+                        <width>211</width>
+                        <height>10</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>-3.141590834</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="sprDestroyerWall" uid="73">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>784</x>
+                        <y>419</y>
+                        <z>0</z>
+                        <width>211</width>
+                        <height>10</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>-3.141590834</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="sprDestroyerWall" uid="76">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>848</x>
+                        <y>349</y>
+                        <z>0</z>
+                        <width>211</width>
+                        <height>10</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>1.570796371</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="sprSwitchBase" uid="80">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>711</x>
+                        <y>395</y>
+                        <z>0</z>
+                        <width>68</width>
+                        <height>16</height>
+                        <depth>0</depth>
+                        <hotspotX>1.636363626</hotspotX>
+                        <hotspotY>-0.050000001</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="sprSwitch" uid="81">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>679</x>
+                        <y>395</y>
+                        <z>0</z>
+                        <width>10</width>
+                        <height>45</height>
+                        <depth>0</depth>
+                        <hotspotX>4.673913002</hotspotX>
+                        <hotspotY>0.890476167</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="sprAnvil" uid="108">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="AnvilPlaf">
+                            <properties>
+                                <max-speed>330</max-speed>
+                                <acceleration>1500</acceleration>
+                                <deceleration>1500</deceleration>
+                                <jump-strength>650</jump-strength>
+                                <gravity>1500</gravity>
+                                <max-fall-speed>700</max-fall-speed>
+                                <double-jump>Disabled</double-jump>
+                                <jump-sustain>0</jump-sustain>
+                                <default-controls>No</default-controls>
+                                <initial-state>Disabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>238</x>
+                        <y>202</y>
+                        <z>0</z>
+                        <width>74</width>
+                        <height>47.684211731</height>
+                        <depth>0</depth>
+                        <hotspotX>1.565445065</hotspotX>
+                        <hotspotY>2.483443737</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="sprOrangePlatform" uid="112">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>161.521713257</x>
+                        <y>143</y>
+                        <z>0</z>
+                        <width>93</width>
+                        <height>7</height>
+                        <depth>0</depth>
+                        <hotspotX>0.478260875</hotspotX>
+                        <hotspotY>0.285714298</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="sprOneWayBlock" uid="113">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Jumpthru">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>155</x>
+                        <y>436</y>
+                        <z>0</z>
+                        <width>145</width>
+                        <height>35</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.503184736</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="sprSimplePlatform" uid="114">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1086</x>
+                        <y>1037</y>
+                        <z>0</z>
+                        <width>148</width>
+                        <height>146</height>
+                        <depth>0</depth>
+                        <hotspotX>7.756756783</hotspotX>
+                        <hotspotY>5.1712327</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="sprOrangePlatform" uid="118">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>438</x>
+                        <y>371</y>
+                        <z>0</z>
+                        <width>196</width>
+                        <height>7</height>
+                        <depth>0</depth>
+                        <hotspotX>0.478260875</hotspotX>
+                        <hotspotY>0.285714298</hotspotY>
+                        <angle>0.785398185</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="sprOrangePlatform" uid="131">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>484</x>
+                        <y>245</y>
+                        <z>0</z>
+                        <width>196</width>
+                        <height>7</height>
+                        <depth>0</depth>
+                        <hotspotX>0.478260875</hotspotX>
+                        <hotspotY>0.285714298</hotspotY>
+                        <angle>0.785398185</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>

@@ -780,40 +780,15 @@
             </actions>
         </event-block>
         <event-block sid="1612734899990143">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="323331158480081" type="sprBomb">
-                    <param id="0" name="Object">sprSheild</param>
-                </condition>
-            </conditions>
+            <conditions />
             <actions>
                 <action id="-9" name="Destroy" sid="1886033083742286" type="sprBomb" />
-                <action id="-5" name="Set width" sid="7127735860349699" type="sprSheild">
-                    <param id="0" name="Width">sprSheild.Width-20</param>
-                </action>
             </actions>
         </event-block>
         <event-block sid="2572050905799542">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="4461355833167827" type="sprBullet">
-                    <param id="0" name="Object">sprSheild</param>
-                </condition>
-            </conditions>
+            <conditions />
             <actions>
                 <action id="-9" name="Destroy" sid="4596452356319978" type="sprBullet" />
-                <action id="-5" name="Set width" sid="2848629841405331" type="sprSheild">
-                    <param id="0" name="Width">sprSheild.Width-20</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="7877255028719846">
-            <conditions>
-                <condition id="-5" name="Compare width" sid="6437222470069876" type="sprSheild">
-                    <param id="0" name="Comparison">0</param>
-                    <param id="1" name="Width">0</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-9" name="Destroy" sid="4896992911988358" type="sprSheild" />
             </actions>
         </event-block>
         <event-block sid="3444467294097051">
