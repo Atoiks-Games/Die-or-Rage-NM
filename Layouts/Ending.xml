@@ -31,7 +31,7 @@
             <instances>
                 <instance type="Text31" uid="454">
                     <properties>
-                        <text>Thanks For Playing! Contributors: Alex Bimm, Paul Teng, Will Huckins, Guilherme Sperotto, Loay Al Rashdi, Jeffery Liao, All The Playtesters, and Ryan Richardson.</text>
+                        <text>Thanks For Playing! Game Made By Prototype Games.</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-16</font>
                         <color>0,0,0</color>
@@ -44,11 +44,38 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>72</x>
-                        <y>133</y>
+                        <x>156</x>
+                        <y>70</y>
                         <z>0</z>
                         <width>654</width>
                         <height>173</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Text2" uid="13">
+                    <properties>
+                        <text>Challenges: 1. Beat the game 1 min faster than your lowest time. 2. Beat the game without failing a level. 3. Find the hidden switch. 4. Get hit by the voidswalker in the first boss level 4 times without failing the level. 5. Invert your keybindings on your computer and beat the game.</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-16</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>41</x>
+                        <y>128</y>
+                        <z>0</z>
+                        <width>758</width>
+                        <height>77</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>

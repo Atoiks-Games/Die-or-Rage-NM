@@ -118,7 +118,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="sprGunFloating" uid="385">
+                <instance type="GunFloating" uid="385">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -140,11 +140,11 @@
                         <x>348</x>
                         <y>438</y>
                         <z>0</z>
-                        <width>59.169021606</width>
-                        <height>24.421562195</height>
+                        <width>35.894779205</width>
+                        <height>23.765949249</height>
                         <depth>0</depth>
-                        <hotspotX>0.047091413</hotspotX>
-                        <hotspotY>0.362416118</hotspotY>
+                        <hotspotX>0.08219178</hotspotX>
+                        <hotspotY>0.365517229</hotspotY>
                         <angle>0.055469211</angle>
                         <opacity>1</opacity>
                     </world>
@@ -539,30 +539,6 @@
                         <hotspotY>0.503401339</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="btnSkip" uid="374">
-                    <properties>
-                        <type>Button</type>
-                        <text>Skip</text>
-                        <tooltip></tooltip>
-                        <initial-visibility>Visible</initial-visibility>
-                        <enabled>Yes</enabled>
-                        <auto-font-size>Yes</auto-font-size>
-                        <id-optional></id-optional>
-                        <checked>No</checked>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>18</x>
-                        <y>15</y>
-                        <z>0</z>
-                        <width>72</width>
-                        <height>24</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
                     </world>
                 </instance>
                 <instance type="sprBlap" uid="375">

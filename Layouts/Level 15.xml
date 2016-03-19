@@ -146,7 +146,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="sprGunFloating" uid="150">
+                <instance type="GunFloating" uid="150">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -168,16 +168,16 @@
                         <x>543</x>
                         <y>161</y>
                         <z>0</z>
-                        <width>59.169021606</width>
-                        <height>24.421562195</height>
+                        <width>35.894779205</width>
+                        <height>23.765949249</height>
                         <depth>0</depth>
-                        <hotspotX>0.047091413</hotspotX>
-                        <hotspotY>0.362416118</hotspotY>
+                        <hotspotX>0.08219178</hotspotX>
+                        <hotspotY>0.365517229</hotspotY>
                         <angle>0.055469211</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="sprBullet" uid="151">
+                <instance type="Bullet" uid="151">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -262,30 +262,6 @@
                     <world>
                         <x>748</x>
                         <y>37</y>
-                        <z>0</z>
-                        <width>72</width>
-                        <height>24</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                    </world>
-                </instance>
-                <instance type="btnSkip" uid="176">
-                    <properties>
-                        <type>Button</type>
-                        <text>Skip</text>
-                        <tooltip></tooltip>
-                        <initial-visibility>Visible</initial-visibility>
-                        <enabled>Yes</enabled>
-                        <auto-font-size>Yes</auto-font-size>
-                        <id-optional></id-optional>
-                        <checked>No</checked>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>118</x>
-                        <y>293</y>
                         <z>0</z>
                         <width>72</width>
                         <height>24</height>

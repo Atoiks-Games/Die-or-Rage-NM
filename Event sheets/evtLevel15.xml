@@ -6,7 +6,7 @@
         <include>evtMain</include>
         <event-block sid="120833933303463">
             <conditions>
-                <condition id="0" name="On collision with another object" sid="6071713428150179" type="sprBullet">
+                <condition id="0" name="On collision with another object" sid="6071713428150179" type="Bullet">
                     <param id="0" name="Object">sprBoss1</param>
                 </condition>
             </conditions>
@@ -14,7 +14,7 @@
                 <action id="-22" name="Set layout angle" sid="7768424443461058" type="System">
                     <param id="0" name="Angle">LayoutAngle+45</param>
                 </action>
-                <action id="-9" name="Destroy" sid="2155946904062912" type="sprBullet" />
+                <action id="-9" name="Destroy" sid="2155946904062912" type="Bullet" />
                 <action id="-5" name="Set width" sid="502570858268309" type="sprHeathBar">
                     <param id="0" name="Width">sprHeathBar.Width - 10</param>
                 </action>

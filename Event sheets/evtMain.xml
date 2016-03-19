@@ -579,18 +579,18 @@
         </event-block>
         <event-block sid="937327511735404">
             <conditions>
-                <condition behavior="Pin" id="0" inverted="1" name="Is pinned" sid="4675116186957752" type="sprGunFloating" />
+                <condition behavior="Pin" id="0" inverted="1" name="Is pinned" sid="4675116186957752" type="GunFloating" />
             </conditions>
             <actions />
             <sub-events>
                 <event-block sid="725439218434802">
                     <conditions>
-                        <condition id="0" name="On collision with another object" sid="1342483025616073" type="sprGunFloating">
+                        <condition id="0" name="On collision with another object" sid="1342483025616073" type="GunFloating">
                             <param id="0" name="Object">sprRyan</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action behavior="Pin" id="0" name="Pin to object" sid="9924374630761317" type="sprGunFloating">
+                        <action behavior="Pin" id="0" name="Pin to object" sid="9924374630761317" type="GunFloating">
                             <param id="0" name="Pin to">sprRyan</param>
                             <param id="1" name="Mode">0</param>
                         </action>
@@ -605,30 +605,30 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="0" name="Spawn another object" sid="8302729251624467" type="sprGunFloating">
-                    <param id="0" name="Object">sprBullet</param>
+                <action id="0" name="Spawn another object" sid="8176905381417307" type="GunFloating">
+                    <param id="0" name="Object">Bullet</param>
                     <param id="1" name="Layer">0</param>
-                    <param id="2" name="Image point">10</param>
+                    <param id="2" name="Image point">0</param>
                 </action>
             </actions>
         </event-block>
         <event-block sid="7525072567183765">
             <conditions>
-                <condition id="-3" inverted="1" name="Is on-screen" sid="7717985554225347" type="sprBullet" />
+                <condition id="-3" inverted="1" name="Is on-screen" sid="7717985554225347" type="Bullet" />
             </conditions>
             <actions>
-                <action id="-9" name="Destroy" sid="5511320202081546" type="sprBullet" />
+                <action id="-9" name="Destroy" sid="5511320202081546" type="Bullet" />
             </actions>
         </event-block>
         <event-block sid="2291881425724125">
             <conditions>
-                <condition id="0" name="On collision with another object" sid="4582098812272012" type="sprBullet">
+                <condition id="0" name="On collision with another object" sid="4582098812272012" type="Bullet">
                     <param id="0" name="Object">sprSlimeBlock</param>
                 </condition>
             </conditions>
             <actions>
                 <action id="-9" name="Destroy" sid="9484828908431841" type="sprSlimeBlock" />
-                <action id="-9" name="Destroy" sid="701769166738955" type="sprBullet" />
+                <action id="-9" name="Destroy" sid="701769166738955" type="Bullet" />
             </actions>
         </event-block>
         <event-block sid="1963173081789561">
@@ -750,25 +750,25 @@
         </event-block>
         <event-block sid="2664047712699754">
             <conditions>
-                <condition id="0" name="On collision with another object" sid="294630355207745" type="sprBullet">
+                <condition id="0" name="On collision with another object" sid="294630355207745" type="Bullet">
                     <param id="0" name="Object">sprOrangePlatform</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Bullet" id="4" name="Bounce off object" sid="3854427033196926" type="sprBullet">
+                <action behavior="Bullet" id="4" name="Bounce off object" sid="3854427033196926" type="Bullet">
                     <param id="0" name="Object">sprOrangePlatform</param>
                 </action>
             </actions>
         </event-block>
         <event-block sid="9678751165756456">
             <conditions>
-                <condition id="0" name="On collision with another object" sid="6524631399866713" type="sprBullet">
+                <condition id="0" name="On collision with another object" sid="6524631399866713" type="Bullet">
                     <param id="0" name="Object">sprBlap</param>
                 </condition>
             </conditions>
             <actions>
                 <action id="-9" name="Destroy" sid="7927834738393044" type="sprBlap" />
-                <action id="-9" name="Destroy" sid="3394570737571456" type="sprBullet" />
+                <action id="-9" name="Destroy" sid="3394570737571456" type="Bullet" />
             </actions>
         </event-block>
         <event-block sid="660040149158945">
@@ -779,29 +779,17 @@
                 <action id="-9" name="Destroy" sid="1004367214109418" type="sprHealthDart" />
             </actions>
         </event-block>
-        <event-block sid="1612734899990143">
-            <conditions />
-            <actions>
-                <action id="-9" name="Destroy" sid="1886033083742286" type="sprBomb" />
-            </actions>
-        </event-block>
-        <event-block sid="2572050905799542">
-            <conditions />
-            <actions>
-                <action id="-9" name="Destroy" sid="4596452356319978" type="sprBullet" />
-            </actions>
-        </event-block>
         <event-block sid="3444467294097051">
             <conditions>
-                <condition id="0" name="On collision with another object" sid="2109702970511511" type="sprBullet">
+                <condition id="0" name="On collision with another object" sid="2109702970511511" type="Bullet">
                     <param id="0" name="Object">sprSWARM</param>
                 </condition>
             </conditions>
             <actions>
                 <action id="-9" name="Destroy" sid="6678710999698398" type="sprSWARM" />
-                <action id="-9" name="Destroy" sid="9428681995334996" type="sprBullet" />
-                <action behavior="Rotate" id="0" name="Set speed" sid="3657813154197019" type="sprGunFloating">
-                    <param id="0" name="Speed">sprGunFloating.Rotate.Speed+20</param>
+                <action id="-9" name="Destroy" sid="9428681995334996" type="Bullet" />
+                <action behavior="Rotate" id="0" name="Set speed" sid="3657813154197019" type="GunFloating">
+                    <param id="0" name="Speed">GunFloating.Rotate.Speed+20</param>
                 </action>
             </actions>
         </event-block>
@@ -828,11 +816,11 @@
         <event-block sid="4590339215455447">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="2558375846351658" type="sprBomb">
-                    <param id="0" name="Object">sprBullet</param>
+                    <param id="0" name="Object">Bullet</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-9" name="Destroy" sid="3262162983825578" type="sprBullet" />
+                <action id="-9" name="Destroy" sid="3262162983825578" type="Bullet" />
                 <action id="-9" name="Destroy" sid="3591225870242387" type="sprBomb" />
             </actions>
         </event-block>
@@ -890,16 +878,6 @@
             <actions>
                 <action id="-1" name="Set X" sid="4923075045490663" type="sprSWARM">
                     <param id="0" name="X">0</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="1193890107851882">
-            <conditions>
-                <condition id="0" name="On clicked" sid="1427659897705068" type="btnSkip" />
-            </conditions>
-            <actions>
-                <action id="-43" name="Go to next/previous layout" sid="5294522561257828" type="System">
-                    <param id="0" name="Which">0</param>
                 </action>
             </actions>
         </event-block>

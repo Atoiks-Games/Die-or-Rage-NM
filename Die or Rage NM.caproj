@@ -695,7 +695,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="sprGunFloating" sid="9112318802324984">
+        <object-type name="GunFloating" sid="9112318802324984">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Pin" sid="1954319183090862">
@@ -707,20 +707,20 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="970573482445255" speed="5">
-                    <frame duration="1" hotspotX="0.0470914" hotspotY="0.362416" original-source="C:\Users\ajbim\Downloads\Gun.png">
+                    <frame duration="1" hotspotX="0.0821918" hotspotY="0.365517" original-source="C:\Users\ajbim\Downloads\Gun.png">
                         <collision-poly>
-                            <point x="0.00554017" y="0.0134228" />
-                            <point x="0.609418" y="0.0402685" />
-                            <point x="0.601108" y="0.345638" />
-                            <point x="0.124654" y="0.395973" />
-                            <point x="0.130194" y="0.953021" />
-                            <point x="0.0110803" y="0.973154" />
+                            <point x="0.0136986" y="0.00689653" />
+                            <point x="1" y="0.0344828" />
+                            <point x="0.995434" y="0.348276" />
+                            <point x="0.210046" y="0.4" />
+                            <point x="0.219178" y="0.972415" />
+                            <point x="0.022831" y="0.993103" />
                         </collision-poly>
                     </frame>
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="sprBullet" sid="4470185025821258">
+        <object-type name="Bullet" sid="4470185025821258">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Bullet" sid="6126830167708249">
@@ -973,8 +973,11 @@
         <object-type name="Text31" sid="4576602172845559">
             <plugin id="Text" />
         </object-type>
-        <object-type name="btnSkip" sid="2549293193634901">
-            <plugin id="Button" />
+        <object-type name="Text" sid="750922764500936">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text2" sid="4672506848793978">
+            <plugin id="Text" />
         </object-type>
     </object-folder>
     <families />

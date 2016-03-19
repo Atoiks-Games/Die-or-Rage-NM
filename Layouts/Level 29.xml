@@ -89,7 +89,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="sprGunFloating" uid="402">
+                <instance type="GunFloating" uid="402">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -111,11 +111,11 @@
                         <x>215</x>
                         <y>430</y>
                         <z>0</z>
-                        <width>59.169021606</width>
-                        <height>24.421562195</height>
+                        <width>35.894779205</width>
+                        <height>23.765949249</height>
                         <depth>0</depth>
-                        <hotspotX>0.047091413</hotspotX>
-                        <hotspotY>0.362416118</hotspotY>
+                        <hotspotX>0.08219178</hotspotX>
+                        <hotspotY>0.365517229</hotspotY>
                         <angle>0.055469211</angle>
                         <opacity>1</opacity>
                     </world>
