@@ -979,6 +979,9 @@
         <object-type name="Text2" sid="4672506848793978">
             <plugin id="Text" />
         </object-type>
+        <object-type name="btnAdvance" sid="9521352270839654">
+            <plugin id="Button" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>

@@ -2,7 +2,7 @@
 <c2layout>
     <name>Intro</name>
     <sid>8394876841857408</sid>
-    <event-sheet></event-sheet>
+    <event-sheet>evtIntroHell</event-sheet>
     <size>
         <width>1708</width>
         <height>960</height>
@@ -31,7 +31,7 @@
             <instances>
                 <instance type="Text" uid="173">
                     <properties>
-                        <text>This game was created for the hardcore gamers. It is meant to be a harder version of Die Or Rage. As such some levels are rididculously hard. There is no story to this version as it is not a sequel to the previous game. That being said have fun and good luck!</text>
+                        <text>This game was created for the hardcore gamers. It is meant to be a harder version of Die Or Rage. As such some levels are ridiculously hard. There is no story to this version as it is not a sequel to the previous game. That being said have fun and good luck!</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-16</font>
                         <color>0,0,0</color>
@@ -54,6 +54,30 @@
                         <hotspotY>0</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="btnAdvance" uid="120">
+                    <properties>
+                        <type>Button</type>
+                        <text>Start</text>
+                        <tooltip></tooltip>
+                        <initial-visibility>Visible</initial-visibility>
+                        <enabled>Yes</enabled>
+                        <auto-font-size>Yes</auto-font-size>
+                        <id-optional></id-optional>
+                        <checked>No</checked>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>648</x>
+                        <y>412</y>
+                        <z>0</z>
+                        <width>72</width>
+                        <height>24</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
                     </world>
                 </instance>
             </instances>
