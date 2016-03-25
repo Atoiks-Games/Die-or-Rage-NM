@@ -320,7 +320,7 @@
                     </frame>
                 </animation>
                 <animation framecount="1" loop="0" name="Crouch" pingpong="0" repeatcount="1" repeatto="0" sid="6079345777502187" speed="5">
-                    <frame duration="1" hotspotX="0.379845" hotspotY="-0.630137" original-source="C:\Users\ajbim\Downloads\Base Jeff.png">
+                    <frame duration="1" hotspotX="0.379845" hotspotY="0.59589" original-source="C:\Users\ajbim\Downloads\Base Jeff.png">
                         <collision-poly>
                             <point x="0.414544" y="0.44719" />
                             <point x="0.657069" y="0.55342" />
