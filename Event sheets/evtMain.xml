@@ -881,5 +881,17 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="2653273868764753">
+            <conditions>
+                <condition id="4" name="On finished" sid="5537792265884113" type="sprLava">
+                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="3" name="Start" sid="2878905127502064" type="sprLava">
+                    <param id="0" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
