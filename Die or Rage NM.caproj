@@ -8,7 +8,7 @@
     <author-website>http://atoiks-games.github.io/</author-website>
     <app-id>com.atoiksGames.dieOrRageNM</app-id>
     <unique-id>2m2oqhlgof90t</unique-id>
-    <saved-with-version>22100</saved-with-version>
+    <saved-with-version>23300</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Button" version="1">Button</plugin>
@@ -1129,6 +1129,9 @@
         <file name="inGameSound.ogg" />
         <file name="boss1Music.ogg" />
         <file name="InGameSound2.ogg" />
+        <file name="boss1Music.m4a" />
+        <file name="inGameSound.m4a" />
+        <file name="InGameSound2.m4a" />
     </sounds-folder>
     <music-folder />
     <files-folder>
